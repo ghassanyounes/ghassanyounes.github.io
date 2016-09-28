@@ -112,7 +112,7 @@
 }
 @font-face {
 	font-family: "Bigfootica";
-	src: url("Fonts/BigFootica.otf");
+	src: url("../Fonts/BigFootica.otf");
 }
 
 body {
@@ -168,7 +168,8 @@ h2 {
 
 p {
     padding: 0 60px 30px;
-    font-family:Bigfootica;
+    font-family:BigFootica;
+    font-size: 1.25em;
 }
 
 .light {

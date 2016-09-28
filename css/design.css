@@ -111,8 +111,8 @@
 	src: url("Fonts/Poiret-One/PoiretOne-Regular.ttf");
 }
 @font-face {
-	font-family: "Bigfootica";
-	src: url("Fonts/BigFootica.otf");
+	font-family: "BigFootica";
+	src: url("../Fonts/BigFootica.otf");
 }
 body {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif;
@@ -167,7 +167,8 @@ h2 {
 
 p {
     padding: 0 60px 30px;
-    font-family:Bigfootica;
+    font-family:BigFootica;
+    font-size: 1.25em;
 }
 
 .light {
