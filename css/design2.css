@@ -200,3 +200,6 @@ p {
   position:absolute;
   width:100%;
 }
+div {
+	background:url(../img/grey.png)
+}
