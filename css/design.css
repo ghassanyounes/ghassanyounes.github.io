@@ -112,7 +112,7 @@
 }
 @font-face {
 	font-family: "BigFootica";
-	src: url("Fonts/BigFootica.otf");
+	src: url("../Fonts/BigFootica.otf");
 }
 body {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif;
