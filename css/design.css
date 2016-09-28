@@ -176,7 +176,7 @@ p {
 }
 
 .dark {
-    color: #8560a8;
+    color: #472666;
     line-height: 1.4em;
 }
 
@@ -201,5 +201,5 @@ p {
   width:100%;
 }
 div.contentt {
-	background:url(../img/grey.png)
+	background:url(../img/lgrey.png)
 }
