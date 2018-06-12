@@ -1,0 +1,213 @@
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+/*Fonts*/
+@font-face {
+	font-family: "timeburnerbold";
+	src: url("Fonts/Timeburner/timeburnerbold.ttf");
+}
+@font-face {
+	font-family: "timeburnernormal";
+	src:url("Fonts/Timeburner/timeburnernormal.ttf");
+}
+@font-face {
+	font-family: "Bellota-Bold";
+	src:url("Fonts/Bellota/Bellota-Bold.otf");
+	}
+@font-face {
+	font-family: "Bellota-BoldItalic";
+	src:url("Fonts/Bellota/Bellota-BoldItalic.otf");
+}
+@font-face {
+	font-family: "Bellota-Italic";
+	src:url("Fonts/Bellota/Bellota-Italic.otf");
+}
+@font-face {
+	font-family: "Bellota-Light";
+	src:url("Fonts/Bellota/Bellota-Light.otf");
+}
+@font-face {
+	font-family: "bellota-LightItalic";
+	src:url("Fonts/Bellota/Bellota-LightItalic.otf");
+}
+@font-face {
+	font-family: "Bellota-Regular";
+	src:url("Fonts/Bellota/Bellota-Regular.otf");
+}
+
+/*Raleway Fonts */
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-Black.ttf");
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-BlackItalic.ttf");
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-Bold.ttf");
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-BoldItalic.ttf");
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-ExtraBold.ttf");
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-ExtraBoldItalic.ttf");
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-ExtraLight.ttf");
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-ExtraLightItalic.ttf");
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-Italic.ttf");
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-Light.ttf");
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-LightItalic.ttf");
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-Medium.ttf");
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-MediumItalic.ttf");
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-Regular.ttf");
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-SemiBold.ttf");
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-SemiBoldItalic.ttf");
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-Thin.ttf");
+}
+@font-face {
+	font-family: "Raleway";
+	src: url("Fonts/RaleWay/Raleway-ThisItalic.ttf");
+}
+@font-face {
+	font-family: "PoiretOne";
+	src: url("Fonts/Poiret-One/PoiretOne-Regular.ttf");
+}
+@font-face {
+	font-family: "Bigfootica";
+	src: url("../Fonts/BigFootica.otf");
+}
+
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    background: url(../img/header.jpg) no-repeat center center fixed;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    background: url(../img/header.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: url(../img/PPPJ.svg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    content: "";
+}
+
+.alt {
+    width: 100%;
+    background-color: #706687;
+    color: #ffffff;
+    padding: 0 0 0 0;
+}
+
+.content {
+    width: 60em;
+    padding: 1em 0;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: 'Bree Serif', serif;
+    font-size: 1.875em;
+    padding: 0 60px;
+}
+
+h3 {
+    font-family: 'Bree Serif', serif;
+    font-size: 1.5em;
+    padding: 0 60px;
+}
+
+p {
+    padding: 0 60px 30px;
+    font-family:BigFootica;
+    font-size: 1.25em;
+}
+
+.light {
+    text-align: center;
+    line-height: 1.4em;
+}
+
+.dark {
+    color: #2a5;
+    line-height: 1.4em;
+}
+
+.foot {
+    font-family: 'Bree Serif', serif;
+    width: 100%;
+    background-color: #a86160;
+    color: #ffffff;
+}
+.google_translate_element {
+	background-color: rgba(255, 255, 255, 0.6);
+	float: center;
+}
+#navbar.navbar_fixed {
+  position:fixed;
+  top:0em;
+  width:100%;
+  background-color: rgba(0 0 0 0);
+}
+#navbar.navbar_absolute {
+  position:absolute;
+  width:100%;
+}
+th {
+	padding:0 0 0 0;
+}
