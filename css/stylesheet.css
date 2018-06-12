@@ -10,6 +10,10 @@
 	font-family: "candara";
 	src: url("/fonts/Candara.ttf");
 }
+@font-face{
+	font-family: "candarabold";
+	src: url("/fonts/Candarab.ttf");
+}
 body {
 	font-family: candara;
 	background-color: #e6ffcc;
@@ -80,6 +84,7 @@ a:onclick {
 	background-color: #cce6ff;
 	display: block;
 	border-radius: 0.5em;
+	font-family: candarab;
 }
 
 #nav > center > ul {
