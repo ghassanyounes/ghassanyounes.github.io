@@ -77,3 +77,11 @@ div.textbox {
 	margin-left: 0;
 	padding-left: 0;
 }
+
+#hidenav {
+	border: none;
+	background-color: #ffcccc;
+	box-shadow: 0;
+	font-size: 25px;
+	width: 50%;
+}
