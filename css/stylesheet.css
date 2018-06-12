@@ -24,6 +24,10 @@ body {
 	padding-top: 0;
 }
 
+p {
+	font-size: 14px;
+}
+
 h1 {
 	font-family: amarillo;
 	position: relative;
