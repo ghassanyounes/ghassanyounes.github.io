@@ -1,10 +1,10 @@
 @font-face{
 	font-family: "amarillo";
-	src: url("fonts/Amarillo.otf");
+	src: url("/fonts/Amarillo.otf");
 }
 @font-face{
 	font-family: "gentium";
-	src: url("fonts/GentiumPlus-R.ttf");
+	src: url("/fonts/GentiumPlus-R.ttf");
 }
 
 body {
