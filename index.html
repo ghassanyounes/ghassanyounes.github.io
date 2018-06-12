@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<meta charset="UTF-8">
 		<link rel="stylesheet" href="css/stylesheet.css">
 		<title> Home | Ghassan Younés </title>
 	</head>
@@ -8,7 +9,7 @@
 		<div id="sidebar"> 
 			<nav id="nav">
 				<center>
-				<button id="hidenav" onclick="document.getElementById('sidebar').style.display='none';document.getElementById('shownav').style.display='block'">-</button>
+				<button id="hidenav" onclick="minimize()">-</button>
 				<ul>
 					<li><a class="active">Home</a></li>
 					<li><a>About Me</a></li>
@@ -20,13 +21,26 @@
 			</nav>
 		</div>
 		<div class="shownav" id="shownav" style="position:absolute; left:1em; display:none;">
-			<button id="maximize" type="button" onclick="document.getElementById('sidebar').style.display='block';document.getElementById('shownav').style.display='none'">+</button>
+			<button id="maximize" type="button" onclick="maximize()">+</button>
 		</div>
-		<main>
+		<main id="main">
 			<h1> Yeet </h1>
 			<p> Hi there fellas</p>
 			<div class=textbox><p> hoela </p></div>
 			<div class=textbox><p> hoela again</p></div>
 		</main>
+		<script type="text/javascript">
+			function minimize(){
+				document.getElementById('sidebar').style.display='none';
+				document.getElementById('shownav').style.display='block';
+				document.getElementById('main').style.marginLeft='1em';
+			}
+
+			function maximize(){
+				document.getElementById('sidebar').style.display='block';
+				document.getElementById('shownav').style.display='none';				
+				document.getElementById('main').style.marginLeft='14em';
+			}
+		</script>
 	</body>
 </html>

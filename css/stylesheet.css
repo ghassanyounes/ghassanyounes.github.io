@@ -33,7 +33,7 @@ main {
 	padding-left: 1em;
 }
 
-div.textbox {
+.textbox {
 	margin-top: 1em;
 	margin-right: 1em;
 	margin-left: 1em;
@@ -49,6 +49,7 @@ div.textbox {
 	text-align: justify;
     text-justify: inter-word;
     vertical-align: top;
+    border-radius: 0.5em;
 }
 #sidebar{
 	position: absolute;
@@ -65,6 +66,7 @@ div.textbox {
 	padding-left: 1em;
 	background-color: #cce6ff;
 	display: block;
+	border-radius: 0.5em;
 }
 
 #nav > center > ul {
@@ -84,6 +86,7 @@ div.textbox {
 	box-shadow: 0;
 	font-size: 25px;
 	width: 50%;
+	border-radius: 0.2em;
 }
 
 #maximize {
@@ -91,4 +94,5 @@ div.textbox {
 	background-color: #ffcccc;
 	box-shadow: 0;
 	font-size: 25px;
+	border-radius: 0.2em;
 }
