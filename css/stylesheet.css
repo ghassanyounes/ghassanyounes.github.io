@@ -16,12 +16,13 @@
 }
 body {
 	font-family: candara;
-	background-color: white;
+	background-color: #ffffff ;
 	margin-top: 0;
 	margin-bottom: 0;
 	margin-right: 0;
 	margin-left: 0;
 	padding-top: 0;
+	color: #1e1f26;
 }
 
 p {
@@ -57,15 +58,14 @@ a:onclick {
 .textbox {
 	margin-top: 1em;
 	margin-right: 1em;
-	margin-left: 0;
+	margin-left: 0.5em;
 	margin-bottom: 1em;
-	background-color: #e6ffcc;
+	background-color: #d0e1f9 ;
 	padding-top: 1em;
 	padding-bottom: 1em;
 	padding-right: 1em;
 	padding-left: 1em;
-	min-width: 40%;
-	max-width: 80%;
+	max-width: 40%;
 	display:inline-block;
 	text-align: justify;
     text-justify: inter-word;
@@ -85,7 +85,7 @@ a:onclick {
 	padding-bottom: 2em;
 	padding-right: 1em;
 	padding-left: 1em;
-	background-color: #cce6ff;
+	background-color: #4d648d ;
 	display: block;
 	border-radius: 0.5em;
 	font-family: candarabold;
@@ -110,31 +110,33 @@ a:onclick {
 	padding-left: 0;
 	border-top-style: solid;
 	border-bottom-style: none;
-	border-top-color: #ccccff; 
+	border-top-color: #1e1f26; 
 	padding-top: 0.5em;
 	font-size: 18px;
+	color: #d0e1f9;
 }
 #nav > center > ul > li:last-child > a{
-	border-width: 5px 0 5px 0;
 	border-bottom-style: solid;
-	border-bottom-color: #ccccff; 
+	border-bottom-color: #1e1f26; 
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 }
 
 #hidenav {
 	border: none;
-	background-color: #ffcccc;
+	background-color: #283655 ;
 	box-shadow: 0;
 	font-size: 25px;
 	width: 50%;
 	border-radius: 0.2em;
+	color: #d0e1f9;
 }
 
 #maximize {
 	border: none;
-	background-color: #ffcccc;
+	background-color: #283655 ;
 	box-shadow: 0;
 	font-size: 25px;
 	border-radius: 0.2em;
+	color: #d0e1f9;
 }
