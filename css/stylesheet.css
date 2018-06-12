@@ -85,3 +85,10 @@ div.textbox {
 	font-size: 25px;
 	width: 50%;
 }
+
+#maximize {
+	border: none;
+	background-color: #ffcccc;
+	box-shadow: 0;
+	font-size: 25px;
+}

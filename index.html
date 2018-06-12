@@ -8,7 +8,7 @@
 		<div id="sidebar"> 
 			<nav id="nav">
 				<center>
-				<button id="hidenav">-</button>
+				<button id="hidenav" onclick="document.getElementById('sidebar').style.display='none';document.getElementById('shownav').style.display='block'">-</button>
 				<ul>
 					<li><a class="active">Home</a></li>
 					<li><a>About Me</a></li>
@@ -18,6 +18,9 @@
 				</ul>
 				</center>
 			</nav>
+		</div>
+		<div class="shownav" id="shownav" style="position:absolute; left:1em; display:none;">
+			<button id="maximize" type="button" onclick="document.getElementById('sidebar').style.display='block';document.getElementById('shownav').style.display='none'">+</button>
 		</div>
 		<main>
 			<h1> Yeet </h1>
