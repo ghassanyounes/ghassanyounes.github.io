@@ -38,11 +38,21 @@ div.textbox {
 	margin-right: 1em;
 	margin-left: 1em;
 	margin-bottom: 1em;
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: #ccccff;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-right: 1em;
+	padding-left: 1em;
+	min-width: 45%;
+	max-width: 70%;
+	display:inline-block;
+	text-align: justify;
+    text-justify: inter-word;
+    vertical-align: top;
 }
 #sidebar{
 	position: absolute;
-	height: 75%;
+	max-height:100vh;
 	width: 10em;
 	margin-top: 1em;
 	margin-bottom: 1em;
@@ -55,4 +65,15 @@ div.textbox {
 	padding-left: 1em;
 	background-color: #cce6ff;
 	display: block;
+}
+
+#nav > center > ul {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+#nav > center > ul > li {
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
 }
