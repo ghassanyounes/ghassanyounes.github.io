@@ -34,6 +34,15 @@ main {
 	padding-left: 1em;
 }
 
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:onclick {
+	color: black;
+}
+
 .textbox {
 	margin-top: 1em;
 	margin-right: 1em;
@@ -77,8 +86,27 @@ main {
 
 #nav > center > ul > li {
 	list-style-type: none;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+#nav > center > ul > li > a {
+	display: block;
 	margin-left: 0;
+	margin-top: 1em;
+	margin-bottom: 1em;
 	padding-left: 0;
+	border-top-style: solid;
+	border-bottom-style: none;
+	border-top-color: #e6ccff; 
+	padding-top: 0.5em;
+}
+#nav > center > ul > li:last-child > a{
+	border-width: 5px 0 5px 0;
+	border-bottom-style: solid;
+	border-bottom-color: #e6ccff; 
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
 }
 
 #hidenav {
