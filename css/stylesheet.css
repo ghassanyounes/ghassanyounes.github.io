@@ -6,9 +6,12 @@
 	font-family: "gentium";
 	src: url("/fonts/GentiumPlus-R.ttf");
 }
-
+@font-face{
+	font-family: "candara";
+	src: url("/fonts/Candara.ttf");
+}
 body {
-	font-family: gentium;
+	font-family: candara;
 	background-color: #e6ffcc;
 	margin-top: 0;
 	margin-bottom: 0;
