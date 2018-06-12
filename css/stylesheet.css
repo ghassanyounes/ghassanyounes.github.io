@@ -16,7 +16,7 @@
 }
 body {
 	font-family: candara;
-	background-color: #e6ffcc;
+	background-color: white;
 	margin-top: 0;
 	margin-bottom: 0;
 	margin-right: 0;
@@ -59,7 +59,7 @@ a:onclick {
 	margin-right: 1em;
 	margin-left: 0;
 	margin-bottom: 1em;
-	background-color: #ccccff;
+	background-color: #e6ffcc;
 	padding-top: 1em;
 	padding-bottom: 1em;
 	padding-right: 1em;
@@ -110,14 +110,14 @@ a:onclick {
 	padding-left: 0;
 	border-top-style: solid;
 	border-bottom-style: none;
-	border-top-color: #e6ccff; 
+	border-top-color: #ccccff; 
 	padding-top: 0.5em;
 	font-size: 18px;
 }
 #nav > center > ul > li:last-child > a{
 	border-width: 5px 0 5px 0;
 	border-bottom-style: solid;
-	border-bottom-color: #e6ccff; 
+	border-bottom-color: #ccccff; 
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 }
