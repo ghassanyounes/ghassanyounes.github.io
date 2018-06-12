@@ -57,15 +57,15 @@ a:onclick {
 .textbox {
 	margin-top: 1em;
 	margin-right: 1em;
-	margin-left: 1em;
+	margin-left: 0;
 	margin-bottom: 1em;
 	background-color: #ccccff;
 	padding-top: 1em;
 	padding-bottom: 1em;
 	padding-right: 1em;
 	padding-left: 1em;
-	min-width: 45%;
-	max-width: 70%;
+	min-width: 40%;
+	max-width: 80%;
 	display:inline-block;
 	text-align: justify;
     text-justify: inter-word;
@@ -112,6 +112,7 @@ a:onclick {
 	border-bottom-style: none;
 	border-top-color: #e6ccff; 
 	padding-top: 0.5em;
+	font-size: 18px;
 }
 #nav > center > ul > li:last-child > a{
 	border-width: 5px 0 5px 0;
