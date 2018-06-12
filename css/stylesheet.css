@@ -35,12 +35,22 @@ h1 {
 	margin-bottom: 1em;
 }
 
+header{
+	position: fixed;
+	width: 100vw;
+	padding-top: 1.5em;
+	padding-left: 6em;
+	padding-bottom: 1.5em;
+	background-color: #4d648d;
+	color: #d0e1f9 ;
+}
+
 main {
 	margin-top: 0;
 	margin-bottom: 1em;
 	margin-right: 1em;
 	margin-left: 14em;
-	padding-top: 2em;
+	padding-top: 10em;
 	padding-bottom: 2em;
 	padding-right: 1em;
 	padding-left: 1em;
@@ -71,12 +81,14 @@ a:onclick {
     text-justify: inter-word;
     vertical-align: top;
     border-radius: 0.5em;
+    justify-content: center;
+  	align-items: center;
 }
 #sidebar{
 	position: absolute;
 	max-height:100vh;
 	width: 10em;
-	margin-top: 1em;
+	margin-top: 5.5em;
 	margin-bottom: 1em;
 	margin-right: 1em;
 	margin-left: 1em;
@@ -139,4 +151,6 @@ a:onclick {
 	font-size: 25px;
 	border-radius: 0.2em;
 	color: #d0e1f9;
+	top: 5em;
+	margin-left: 4em;
 }
