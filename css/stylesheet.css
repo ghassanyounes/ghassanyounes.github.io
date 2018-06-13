@@ -287,6 +287,8 @@ a:onclick {
 
 	#maximize {
 		width: 100%;
+		margin-left: 0;
+		left: 50%;
 	}
 
 	#sidebar
