@@ -185,6 +185,7 @@ th, td{
 	top: 1em;
 	margin-left: 3.25em;
 	position: fixed;
+	top:3em;
 }
 
 #slideshow{
@@ -317,9 +318,10 @@ th, td{
 	}
 
 	#maximize {
-		width: 100%;
+		width: 10%;
 		margin-left: 50%;
-		left: 50%;
+		right: 75%;
+		top:0.75em;
 	}
 	main{
 		margin-left: 0;
