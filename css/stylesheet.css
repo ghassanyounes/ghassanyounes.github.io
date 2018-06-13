@@ -56,12 +56,12 @@ header{
 main {
 	margin-top: 0;
 	margin-bottom: 1em;
-	margin-right: 0.5em;
-	margin-left: 14em;
+	margin-right: 2em;
+	margin-left: 1em;
 	padding-top: 6em;
 	padding-bottom: 2em;
 	padding-right: 1em;
-	padding-left: 1em;
+	padding-left: 13em;
 }
 
 a {
@@ -73,7 +73,7 @@ a:onclick {
 	color: black;
 }
 
-.textbox {
+.textboxleft, .textboxright {
 	margin-top: 1em;
 	margin-right: 1em;
 	margin-left: 0.5em;
@@ -83,14 +83,26 @@ a:onclick {
 	padding-bottom: 1em;
 	padding-right: 1em;
 	padding-left: 1em;
-	max-width: 40%;
-	display:inline-grid;
+	max-width: 50%;
+	display:inline-block;
 	text-align: justify;
     text-justify: inter-word;
     vertical-align: top;
     justify-content: center;
   	align-items: center;
 	font-family: candarabold;
+}
+.textboxleft{
+	float:left;
+}
+.textboxright{
+	float:right;
+}
+th, td{
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: 1em;
 }
 #sidebar{
 	position: fixed;
@@ -99,7 +111,7 @@ a:onclick {
 	margin-top: 2.5em;
 	margin-bottom: 1em;
 	margin-right: 1em;
-	margin-left: 5em;
+	margin-left: 0;
 	padding-top: 2em;
 	padding-bottom: 2em;
 	padding-right: 1em;
@@ -124,15 +136,15 @@ a:onclick {
 	padding-left: 0;
 	border-top-style: solid;
 	border-bottom-style: none;
-	border-top-color: #594F4F; 
+	border-top-color: #547980; 
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	font-size: 18px;
-	color: #9DE0AD;
+	color: #594F4F;
 }
 #nav > center > ul > li:last-child > a{
 	border-bottom-style: solid;
-	border-bottom-color: #594F4F; 
+	border-bottom-color: #547980; 
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 }
@@ -171,22 +183,14 @@ a:onclick {
 	border-radius: 0.2em;
 	color: #9DE0AD;
 	top: 1em;
-	margin-left: 6.5em;
+	margin-left: 3.25em;
+	position: fixed;
 }
 
 #slideshow{
-	display: inline-block;
+	display: block;
 	width: 40%;
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
-	padding-right: 1em;
-	padding-left: 1em;
-	margin-right: 1em;
-	margin-left: 0.5em;
-	margin-bottom: 1em;
-	/*background-color: #45ADA8 ;*/
-	/*border-style: solid;
-	border-color: #45ADA8;*/
+	float:right;
 }
 
 #slideshowimages{
@@ -271,6 +275,31 @@ a:onclick {
 
 /*This is the mobile-ified section to make things work on small screens*/
 
+@media only screen and ( max-width: 65.6em ) /* 1050 */{
+	html{
+		font-size: 75%; /* 12 */
+	}
+	#slideshow{
+	width: 95%;
+	}
+	.mySlides{
+		max-height: none;
+		height:auto !important;
+		width:100%;
+		vertical-align: center;
+	}
+	.textboxleft, .textboxright{
+		width: 100%;
+		max-width: 40%;
+		text-align: justify;
+	    text-justify: inter-word;
+	    /*80px header + 40px footer = 120px  */
+	}
+	#slideshowimages{
+		width: 70%;
+	}
+}
+
 @media only screen and ( max-width: 62.5em ) /* 1000 */{
 	#sidebar{
 		width: 100%;
@@ -284,6 +313,7 @@ a:onclick {
 
 	#slideshow{
 	width: 90%;
+	float: inherit;
 	}
 
 	#maximize {
@@ -291,7 +321,11 @@ a:onclick {
 		margin-left: 50%;
 		left: 50%;
 	}
-
+	main{
+		margin-left: 0;
+		margin-right: 0;
+		text-align: center!important;
+	}
 	#sidebar
 	{
 		position: fixed;
@@ -313,34 +347,14 @@ a:onclick {
 			text-align: center;
 			position: relative;
 		}
-	.textbox{
+	.textboxleft, .textboxright{
+		width:100%;
 		max-width: 80%;
 		margin-left: 0;
 		margin-right: 0;
-	}
-	main{
-		margin-left: 0;
-		margin-right: 0;
+		float:center!important;
+		justify-content: center;
+		left: 50%;
+		float: inherit;
 	}
 }
-@media only screen and ( max-width: 65.6em ) /* 1050 */{
-	html{
-		font-size: 75%; /* 12 */
-	}
-	.mySlides{
-		max-height: none;
-		height:auto !important;
-		width:100%;
-		vertical-align: center;
-	}
-	.textbox{
-		display:inline-flex;
-		padding: 2em 2em 2em 2em;
-		width: 100%;
-		text-align: justify;
-	    text-justify: inter-word;
-	    /*80px header + 40px footer = 120px  */
-	}
-	#slideshowimages{
-		width: 70%;
-	}
