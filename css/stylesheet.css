@@ -80,7 +80,7 @@ a:onclick {
 	text-align: justify;
     text-justify: inter-word;
     vertical-align: top;
-    border-radius: 0.5em;
+    
     justify-content: center;
   	align-items: center;
 	font-family: candarabold;
@@ -99,7 +99,7 @@ a:onclick {
 	padding-left: 1em;
 	background-color: #4d648d ;
 	display: block;
-	border-radius: 0.5em;
+	
 	font-family: candarabold;
 }
 
@@ -110,20 +110,16 @@ a:onclick {
 
 #nav > center > ul > li {
 	list-style-type: none;
-	margin-top: 1em;
-	margin-bottom: 1em;
 }
-
 #nav > center > ul > li > a {
 	display: block;
 	margin-left: 0;
-	margin-top: 1em;
-	margin-bottom: 1em;
 	padding-left: 0;
 	border-top-style: solid;
 	border-bottom-style: none;
 	border-top-color: #1e1f26; 
 	padding-top: 0.5em;
+	padding-bottom: 0.5em;
 	font-size: 18px;
 	color: #d0e1f9;
 }
@@ -132,6 +128,16 @@ a:onclick {
 	border-bottom-color: #1e1f26; 
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
+}
+
+#nav > center > ul > li > a.active{
+	background-color:#d0e1f9;
+	color: #283655;
+}
+
+#nav > center > ul > li > a:hover{
+	background-color:#d0e1f9;
+	color: #283655;
 }
 
 #hidenav {
@@ -162,7 +168,7 @@ a:onclick {
 	padding-right: 0.25em;
 	padding-left: 0.25em;
 	background-color: #4d648d ;
-	border-radius: 0.5em;
+	
 }
 
 #slideshowimages{
@@ -172,7 +178,7 @@ a:onclick {
 	padding-right: 0.5em;
 	padding-left: 0.5em;
 	background-color: #4d648d ;
-	border-radius: 0.5em;
+	
 }
 
 .mySlides{
@@ -184,22 +190,11 @@ a:onclick {
 	float:center;
 	height: 95%;
 }
-.w3-left, .w3-right, .w3-badge {
-	cursor:pointer;
-}
-.w3-left{
-	float:left;
-	color:#d0e1f9;
-}
-.w3-right{
-	float:right;
-	color:#d0e1f9;
-}
 .w3-badge {
 	height:20px;
 	width:10px;
 	padding: 0;
-	background-color:#000;
+	background-color:#283655;
 	color:#fff;
 	display:inline-block;
 	padding-left:5px;
@@ -207,16 +202,26 @@ a:onclick {
 	padding-right:5px;
 	margin-right: 0.5em;
 	text-align:center;
-	border-radius:100%;
+	border-radius: 100%;
+}
+.w3-left, .w3-right, .w3-badge {
+	cursor:pointer;
+	color:#d0e1f9;
+}
+.w3-left{
+	float:left;
+}
+.w3-right{
+	float:right;
 }
 .w3-center {
 	display:inline-block;
 	width:auto;
 }
 .w3-transparent,.w3-hover-none:hover{
-	background-color:rgba(128,128,128,0.5)!important
+	background-color:rgba(40, 54, 85, 0.7)!important
 }
 .w3-white,.w3-hover-white:hover{
-	color:#000!important;
-	background-color:#fff!important
+	color:#283655!important;
+	background-color:#d0e1f9!important;
 }
