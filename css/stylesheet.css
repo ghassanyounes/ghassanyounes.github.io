@@ -29,6 +29,13 @@ p {
 	font-size: 18px;
 }
 
+.textbox > p:first-letter {
+	font-size: 44px;
+	float: left;
+	/*line-height: 35px;*/
+	padding-top: 0.25em; 
+	padding-right: 3px;
+}
 h1 {
 	font-family: amarillo;
 	position: relative;
