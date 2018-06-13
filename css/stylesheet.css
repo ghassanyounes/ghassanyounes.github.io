@@ -16,13 +16,13 @@
 }
 body {
 	font-family: candara;
-	background-color: #ffffff ;
+	background-color: #FFFFFF ;
 	margin-top: 0;
 	margin-bottom: 0;
 	margin-right: 0;
 	margin-left: 0;
 	padding-top: 0;
-	color: #1e1f26;
+	color: #594F4F;
 }
 
 p {
@@ -41,8 +41,9 @@ header{
 	padding-top: 0;
 	padding-left: 6em;
 	padding-bottom: 0;
-	background-color: #4d648d;
-	color: #d0e1f9 ;
+	background-color: #45ADA8;
+	/*background: linear-gradient(to bottom right, #E5FCC2, #9DE0AD, #45ADA8, #547980, #594F4F);*/
+	color: #9DE0AD ;
 }
 
 main {
@@ -70,7 +71,7 @@ a:onclick {
 	margin-right: 1em;
 	margin-left: 0.5em;
 	margin-bottom: 1em;
-	background-color: #d0e1f9 ;
+	background-color: #9DE0AD ;
 	padding-top: 1em;
 	padding-bottom: 1em;
 	padding-right: 1em;
@@ -80,7 +81,6 @@ a:onclick {
 	text-align: justify;
     text-justify: inter-word;
     vertical-align: top;
-    
     justify-content: center;
   	align-items: center;
 	font-family: candarabold;
@@ -97,7 +97,7 @@ a:onclick {
 	padding-bottom: 2em;
 	padding-right: 1em;
 	padding-left: 1em;
-	background-color: #4d648d ;
+	background-color: #45ADA8 ;
 	display: block;
 	
 	font-family: candarabold;
@@ -117,37 +117,37 @@ a:onclick {
 	padding-left: 0;
 	border-top-style: solid;
 	border-bottom-style: none;
-	border-top-color: #1e1f26; 
+	border-top-color: #594F4F; 
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	font-size: 18px;
-	color: #d0e1f9;
+	color: #9DE0AD;
 }
 #nav > center > ul > li:last-child > a{
 	border-bottom-style: solid;
-	border-bottom-color: #1e1f26; 
+	border-bottom-color: #594F4F; 
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 }
 
 #nav > center > ul > li > a.active{
-	background-color:#d0e1f9;
-	color: #283655;
+	background-color:#9DE0AD;
+	color: #547980;
 }
 
 #nav > center > ul > li > a:hover{
-	background-color:#d0e1f9;
-	color: #283655;
+	background-color:#9DE0AD;
+	color: #547980;
 }
 
 #hidenav {
 	border: none;
-	background-color: #283655 ;
+	background-color: #547980 ;
 	box-shadow: 0;
 	font-size: 25px;
 	width: 50%;
 	border-radius: 0.2em;
-	color: #d0e1f9;
+	color: #9DE0AD;
 }
 
 #shownav{
@@ -158,11 +158,11 @@ a:onclick {
 
 #maximize {
 	border: none;
-	background-color: #283655 ;
+	background-color: #547980 ;
 	box-shadow: 0;
 	font-size: 25px;
 	border-radius: 0.2em;
-	color: #d0e1f9;
+	color: #9DE0AD;
 	top: 1em;
 	margin-left: 4em;
 }
@@ -177,9 +177,9 @@ a:onclick {
 	margin-right: 1em;
 	margin-left: 0.5em;
 	margin-bottom: 1em;
-	/*background-color: #4d648d ;*/
+	/*background-color: #45ADA8 ;*/
 	/*border-style: solid;
-	border-color: #4d648d;*/
+	border-color: #45ADA8;*/
 }
 
 #slideshowimages{
@@ -188,7 +188,7 @@ a:onclick {
 	padding-bottom: 0.5em;
 	padding-right: 0.5em;
 	padding-left: 0.5em;
-	background-color: #4d648d ;
+	background-color: #45ADA8 ;
 	margin-top: 1em;
 	margin-right: 1em;
 	margin-left: 0.5em;
@@ -208,7 +208,7 @@ a:onclick {
 	height:20px;
 	width:10px;
 	padding: 0;
-	background-color:#283655;
+	background-color:#547980;
 	color:#fff;
 	display:inline-block;
 	padding-left:5px;
@@ -222,11 +222,11 @@ a:onclick {
 	border-radius: 100%;
 	height:1.5em;
 	width:1.5em;
-	background-color: #4d648d;
+	background-color: #45ADA8;
 }*/
 .w3-left, .w3-right, .w3-badge {
 	cursor:pointer;
-	color:#d0e1f9;
+	color:#9DE0AD;
 }
 .w3-left{
 	float:left;
@@ -235,7 +235,7 @@ a:onclick {
 	float:right;
 }
 .w3-hover-text-khaki-dark-left, .w3-hover-text-khaki-dark-right{
-	color: #4d648d;
+	color: #45ADA8;
 	position: relative;
 	margin-top: 1.5em; 
 	font-size:5em;
@@ -258,8 +258,8 @@ a:onclick {
 	background-color:rgba(30, 31, 38, 0.7)!important
 }
 .w3-white,.w3-hover-white:hover{
-	color:#283655!important;
-	background-color:#d0e1f9!important;
+	color:#547980!important;
+	background-color:#9DE0AD!important;
 }
 
 /*This is the mobile-ified section to make things work on small screens*/
