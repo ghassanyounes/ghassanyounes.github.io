@@ -38,9 +38,9 @@ h1 {
 header{
 	position: fixed;
 	width: 100vw;
-	padding-top: 1.5em;
+	padding-top: 0;
 	padding-left: 6em;
-	padding-bottom: 1.5em;
+	padding-bottom: 0;
 	background-color: #4d648d;
 	color: #d0e1f9 ;
 }
@@ -50,7 +50,7 @@ main {
 	margin-bottom: 1em;
 	margin-right: 1em;
 	margin-left: 14em;
-	padding-top: 10em;
+	padding-top: 6em;
 	padding-bottom: 2em;
 	padding-right: 1em;
 	padding-left: 1em;
@@ -83,16 +83,16 @@ a:onclick {
     border-radius: 0.5em;
     justify-content: center;
   	align-items: center;
+	font-family: candarabold;
 }
 #sidebar{
-	position: absolute;
+	position: fixed;
 	max-height:100vh;
 	width: 10em;
-	margin-top: 5.5em;
+	margin-top: 2.5em;
 	margin-bottom: 1em;
 	margin-right: 1em;
-	margin-left: 1em;
-	padding-top: 2em;
+	margin-left: 1.2em;
 	padding-top: 2em;
 	padding-bottom: 2em;
 	padding-right: 1em;
@@ -151,6 +151,72 @@ a:onclick {
 	font-size: 25px;
 	border-radius: 0.2em;
 	color: #d0e1f9;
-	top: 5em;
+	top: 1em;
 	margin-left: 4em;
+}
+
+#slideshow{
+	width: 40%;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-right: 0.25em;
+	padding-left: 0.25em;
+	background-color: #4d648d ;
+	border-radius: 0.5em;
+}
+
+#slideshowimages{
+	width: 85%;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-right: 0.5em;
+	padding-left: 0.5em;
+	background-color: #4d648d ;
+	border-radius: 0.5em;
+}
+
+.mySlides{
+	display: table-cell;
+	vertical-align: middle;
+	left: 0; 
+	right: 0; 
+	margin: 0 auto;
+	float:center;
+	height: 95%;
+}
+.w3-left, .w3-right, .w3-badge {
+	cursor:pointer;
+}
+.w3-left{
+	float:left;
+	color:#d0e1f9;
+}
+.w3-right{
+	float:right;
+	color:#d0e1f9;
+}
+.w3-badge {
+	height:20px;
+	width:10px;
+	padding: 0;
+	background-color:#000;
+	color:#fff;
+	display:inline-block;
+	padding-left:5px;
+	margin-left: 0.5em;
+	padding-right:5px;
+	margin-right: 0.5em;
+	text-align:center;
+	border-radius:100%;
+}
+.w3-center {
+	display:inline-block;
+	width:auto;
+}
+.w3-transparent,.w3-hover-none:hover{
+	background-color:rgba(128,128,128,0.5)!important
+}
+.w3-white,.w3-hover-white:hover{
+	color:#000!important;
+	background-color:#fff!important
 }

@@ -8,7 +8,7 @@
 	<body>
 		<header id="header">
 			<center>
-				<h1>Yeet</h1>
+				<h1>Welcome</h1>
 			</center>
 		</header>
 		<div id="sidebar"> 
@@ -25,13 +25,31 @@
 				</center>
 			</nav>
 		</div>
-		<div class="shownav" id="shownav" style="position:absolute; top:7.5em; display:none;">
+		<div class="shownav" id="shownav" style="position:absolute; top:4.5em; display:none;">
 			<button id="maximize" type="button" onclick="maximize()">+</button>
 		</div>
 		<main id="main">
 			<center>
 				<div class=textbox><p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p></div>
 				<div class=textbox><p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p></div>
+				<div id="slideshow">
+					<div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)" style="padding-top: 3em; padding-left: 0.2em; font-size:3em;">&#10094;</div>
+					<div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)" style="padding-top: 3em; padding-right: 0.2em; font-size:3em;">&#10095;</div>
+					<div id="slideshowimages">
+						<img class="mySlides" src="images/004.png" style="/*display: table-cell;*/ vertical-align: middle; left: 0;  right: 0;  margin: 0 auto 0 auto; float:center; display:none; width:100%;">
+						<img class="mySlides" src="images/001.png" style="/*display: table-cell;*/ vertical-align: middle; left: 0;  right: 0;  margin: 0 auto 0 auto; float:center; display:none; width:100%;">
+						<img class="mySlides" src="images/003.png" style="/*display: table-cell;*/ vertical-align: middle; left: 0;  right: 0;  margin: 0 auto 0 auto; float:center; display:none; width:100%;">
+						<img class="mySlides" src="images/002.png" style="/*display: table-cell;*/ vertical-align: middle; left: 0;  right: 0;  margin: 0 auto 0 auto; float:center; display:none; width:100%;">
+						<img class="mySlides" src="images/005.png" style="/*display: table-cell;*/ vertical-align: middle; left: 0;  right: 0;  margin: 0 auto 0 auto; float:center; display:none; width:100%;">
+					</div>
+					<div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%; margin-top:0; padding-top:0; top:86.5vh; padding-bottom: 0; margin-bottom: 0; background-color: rgba(0,0,0,0); height: 0.5em;line-height: 0.5em;">
+				    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+				    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+				    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+				    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+				    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
+					</div>
+				</div>
 			</center>
 		</main>
 		<script type="text/javascript">
@@ -47,6 +65,59 @@
 				document.getElementById('shownav').style.display='none';				
 				document.getElementById('main').style.marginLeft='14em';
 				document.getElementById('header').style.paddingLeft='6em';
+			}
+			var slideIndex = 1;
+
+			//show slideshow elements
+
+			showDivs(slideIndex);
+
+
+
+			function plusDivs(n) {
+
+			  showDivs(slideIndex += n);
+
+			}
+
+
+
+			function currentDiv(n) {
+
+			  showDivs(slideIndex = n);
+
+			}
+
+
+
+			function showDivs(n) {
+
+			  var i;
+
+			  var x = document.getElementsByClassName("mySlides");
+
+			  var dots = document.getElementsByClassName("demo");
+
+			  if (n > x.length) {slideIndex = 1}    
+
+			  if (n < 1) {slideIndex = x.length}
+
+			  for (i = 0; i < x.length; i++) {
+
+			     x[i].style.display = "none";  
+
+			  }
+
+			  for (i = 0; i < dots.length; i++) {
+
+			     dots[i].className = dots[i].className.replace(" w3-white", "");
+
+			  }
+
+			  x[slideIndex-1].style.display = "block";  
+
+			  dots[slideIndex-1].className += " w3-white";
+
 			}
 		</script>
 	</body>
