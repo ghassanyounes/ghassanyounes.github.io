@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:creeper,nbt=!{ExplosionRadius:0b}] if entity @s[nbt=!{NoAI:1b}] run data merge entity @s {ExplosionRadius:0b}
