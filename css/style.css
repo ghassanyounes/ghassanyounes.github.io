@@ -1,0 +1,83 @@
+@font-face{
+  font-family: "amarillo";
+  src: url("/fonts/Amarillo.otf");
+}
+@font-face{
+  font-family: "gentium";
+  src: url("/fonts/GentiumPlus-R.ttf");
+}
+@font-face{
+  font-family: "candara";
+  src: url("/fonts/Candara.ttf");
+}
+@font-face{
+  font-family: "candarabold";
+  src: url("/fonts/Candarab.ttf");
+}
+@font-face{
+  font-family: "code2001";
+  src: url("/fonts/Candarab.ttf");
+}
+@font-face{
+  font-family: "ubuntumono";
+  src: url("/fonts/UbuntuMono-R.ttf");
+}
+body{
+  font-family: candara;
+  background-color: white; 
+  margin: 0;
+  padding: 0;
+
+}
+header{
+  margin: 0;
+  padding: 1em;
+  background-color: #222;
+}
+main{
+  margin: 0;
+  padding: 0;
+  padding-left: 13em;
+}
+nav{
+  background-color: #222;
+  position: fixed;
+  padding-top: 0;
+  padding-right: 1em;
+  padding-bottom: 1.5em;
+  padding-left: 0.5em;
+  height: 100%;
+  width: 10em;
+}
+h1{
+  font-family: candarabold;
+  font-size: 16px;
+  color: green;
+}
+a{
+  font-family: code2001;
+  text-decoration: none;
+}
+a.darkbg{
+  color: aliceblue;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 1em; 
+}
+button.darkbgc{
+  color: #222;
+  border-style: rounded;
+  padding: 0;
+  margin: 1em;
+}
+button.lightbg{
+  color: white;
+  border-style: rounded;
+  padding: 0;
+  margin: 1em;
+}
+div.shownav{
+  margin-left: 1em;
+  padding-bottom: 1em;
+}
