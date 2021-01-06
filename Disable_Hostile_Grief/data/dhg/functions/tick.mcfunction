@@ -1,1 +1,0 @@
-execute if score creeper dhg.dummy matches 1.. run function dhg:creeper_tick

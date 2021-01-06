@@ -1,1 +1,0 @@
-execute as @e[type=minecraft:ghast,nbt=!{ExplosionPower:0b}] run data merge entity @s {ExplosionPower:0b}
