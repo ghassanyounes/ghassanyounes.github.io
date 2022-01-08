@@ -3,6 +3,7 @@ html, body {
   color: white;
   margin: 0;
   padding: 0;
+  font-family: 'IBM Plex Serif Medium';
 }
 
 main {
@@ -14,6 +15,8 @@ main {
   grid-template-columns: repeat(10, auto);
   grid-auto-rows: minmax(0, auto);
   grid-auto-flow: row;
+  padding-top: 8em;
+  padding-bottom: 1em;
 }
 
 div.maincontent {
@@ -27,7 +30,7 @@ div.maincontent p {
   text-align: justify;
   text-justify: inter-word;
 }
-div.maincontent p:first-letter {
+div.maincontent p:first-of-type:first-letter {
   float: left;
   font-size: 48px;
   line-height: 1;
@@ -41,18 +44,28 @@ div.maincontent img {
 div.sidebar p {
   text-align: justify;
   text-justify: inter-word;
-  padding-right: 1em;
+}
+div.sidebar h3 {
+  font-family: 'IBM Plex Serif';
 }
 div.sidebar {
   grid-column: col-start 7 / span 3;
   padding: 1em;
+  padding-right: 2em;
   padding-bottom: 0.25em;
   padding-top: 0.25em;
 }
 
+header {
+  position: fixed;
+  top:0;
+  padding-top: 0;
+  margin-top: 0;
+}
+
 header, footer {
   background-color: black;
-  width: auto;
+  width: 100%;
   padding-left: 1em;
   padding-right: 1em;
   margin: 0;
@@ -71,10 +84,11 @@ footer p {
   justify-content: center;
 }
 
-header h2 {
-  padding-top: 1em;
+header h1 {
+  padding-top: 0.2em;
   display: flex;
   justify-content: center;
+  font-family: 'IBM Plex Sans Bold';
 }
 
 nav {
@@ -90,6 +104,7 @@ nav a {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   color: white;
+  font-family: 'IBM Plex Sans Bold';
   font-weight: bolder;
   vertical-align: middle;
 }
@@ -112,4 +127,5 @@ div.searchbar {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   display: inline-block;
+  font-family: 'IBM Plex Sans Bold';
 }
