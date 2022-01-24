@@ -3,24 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <title>Ghassan's Food Blog</title>
-    <link rel="stylesheet" href="../fonts/IBMPlex/css/ibm-plex.css" />
-      <link rel="stylesheet" media="screen and (max-width: 1680px)" href="../css/blog.css" />
-    <link rel="stylesheet" media="screen and (min-width: 1680px)" href="../css/blog.css" />
+    <link rel="stylesheet" href="../css/base.css" />
+    <script src="https://kit.fontawesome.com/7a8c1f7fea.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
-      <h1 class="title", id="title"> Ghassan's Food Blog </h1>
+      <h1 class="title", id="name"> Ghassan's Food Blog </h1>
       <nav> 
-        <a href=".">Home</a>
-        <a href=".">Latest</a>
-        <a href=".">Highlights</a>
-        <a href=".">Recipes</a>
-        <a href=".">About</a>
+        <a id="home"       href="../index.html">Home</a>
+        <a id="bloghome"   href="index.html">Home</a>
+        <a id="newestpost" href=".">Latest</a>
+        <a id="highlights" href=".">Highlights</a>
+        <a id="recipes"    href=".">Recipes</a>
+        <a id="about"      href=".">About</a>
         <div class="searchbar">Search</div>
       </nav>
     </header>
     <main id="main">
       <div class="maincontent">
+        <h2>Title Goes Here</h2>
         <img src="images/food_placeholder.jpg" />
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae congue mauris rhoncus aenean. Tellus at urna condimentum mattis pellentesque. Cursus sit amet dictum sit amet justo. Integer feugiat scelerisque varius morbi enim nunc. Sit amet venenatis urna cursus. Elit ullamcorper dignissim cras tincidunt lobortis. Ultrices eros in cursus turpis massa. Urna porttitor rhoncus dolor purus non enim praesent. Risus sed vulputate odio ut enim blandit. Viverra justo nec ultrices dui sapien eget mi proin. Scelerisque felis imperdiet proin fermentum leo vel orci porta. Fringilla urna porttitor rhoncus dolor. Morbi tristique senectus et netus. Odio aenean sed adipiscing diam donec adipiscing tristique risus nec. Nibh ipsum consequat nisl vel.
         </p><p>
@@ -77,9 +78,9 @@
         </p>
       </div>
     </main>
-    <footer>
-      <p id="copyright"></p>
-      <script src="../scripts/common_text.js"></script>
+    <footer id="footer">
     </footer>
+    <script src="../scripts/common_text.js"></script>
+    <script src="../scripts/name-change-color.js"></script>
   </body>
 </html>

@@ -1,15 +1,30 @@
 @import "../fonts/IBMPlex/css/ibm-plex.css";
 
+:root {
+  --text-color: white;
+  --main-bg-color: #4b4b4b;
+  --body-bg-color: #222222;
+  --head-foot-bg-color: black;
+  --highlight-color: paleturquoise;
+    --pink:#d8117d;
+     --red:#d9362d;
+  --orange:#e5712a;
+  --yellow:#f8be23;
+   --green:#069743;
+    --blue:#00a3da;
+  --purple:#773e85;
+}
+
 html, body {
-  background-color: #222222;
-  color: white;
+  background-color: var(--body-bg-color);
+  color: var(--text-color);
   margin: 0;
   padding: 0;
-  font-family: 'IBM Plex Serif Medium';
+  font-family: 'IBM Plex Sans';
 }
 
 main {
-  background-color: #4b4b4b;
+  background-color: var(--main-bg-color);
   margin-left: 5%;
   width: 90%;
   margin-top: 0;
@@ -21,13 +36,49 @@ main {
   padding-bottom: 1em;
 }
 
-h2 {
+h2, h3, h4, h5 {
   font-family: 'IBM Plex Sans';
 }
 
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 45px;
+}
+h3 {
+  font-size: 40px;
+}
+h4 {
+  font-size: 35px;
+}
+h5 {
+  font-size: 30px;
+}
+
+@media only screen and (max-width:1200px){
+  div.maincontent {
+    grid-column: 1 / span 4;
+  }
+  div.sidebar {
+    grid-row: 2 /span 1;
+    margin-bottom: 3em;
+    border-width: 10px 0 0 0;
+  }
+}
+@media only screen and (min-width:1200px){
+  div.maincontent {
+    grid-column: col-start 1 / span 6;
+    grid-row: 1 /span 10;
+  }
+  div.sidebar {
+    grid-column: col-start 7 / span 3;
+    grid-row: span 1;
+    border-width: 0 0 0 10px;
+  }
+}
+
 div.maincontent {
-  grid-column: col-start 1 / span 6;
-  grid-row: 1 /span 10;
   padding: 2em;
   padding-top: 1em;
   vertical-align: top;
@@ -52,26 +103,27 @@ div.maincontent p a:visited {
   color: inherit;
 }
 div.maincontent p a:hover {
-  color: paleturquoise;
+  color: var(--highlight-color);
 }
 div.maincontent img {
   max-width: 100%;
 }
 
-div.sidebar p {
+div.sidebar p, div.sidebar ul {
   text-align: justify;
   text-justify: inter-word;
-  font-family: 'IBM Plex Serif Medium';
-}
-div.sidebar h3 {
   font-family: 'IBM Plex Sans';
 }
+div.sidebar h3 {
+  font-family: 'IBM Plex Sans SemiBold';
+}
 div.sidebar {
-  grid-column: col-start 7 / span 3;
   padding: 1em;
   padding-right: 2em;
   padding-bottom: 0.25em;
   padding-top: 0.25em;
+  border-style: solid;
+  border-color: var(--body-bg-color);
 }
 
 header {
@@ -82,7 +134,7 @@ header {
 }
 
 header, footer {
-  background-color: black;
+  background-color: var(--head-foot-bg-color);
   width: 100%;
   padding-left: 1em;
   padding-right: 1em;
@@ -95,19 +147,31 @@ footer {
   bottom: 0;
   padding: 0;
   width: 100%;
-}
-
-footer p { 
   display: flex;
   justify-content: center;
+}
+footer a {
+  padding-left: 1em;
+  padding-right: 1em;
+  display: inline-block;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+footer p { 
+  display: inline-block;
+  justify-content: center;
   font-family: 'IBM Plex Sans Medium';
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
 }
 
 header h1 {
-  padding-top: 0.2em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
   display: flex;
   justify-content: center;
   font-family: 'IBM Plex Sans Medium';
+  margin: 0;
 }
 
 nav {
@@ -122,7 +186,7 @@ nav a {
   padding-left: 1em;
   padding-right: 1em;
   padding-top: 0.25em;
-  color: white;
+  color: var(--text-color);
   font-family: 'IBM Plex Sans Medium';
   font-weight: bolder;
   vertical-align: middle;
@@ -135,15 +199,15 @@ nav a:first-of-type {
 }
 nav a:link {
   text-decoration: none;
-  color: white;
+  color: var(--text-color);
 }
 nav a:visited {
   text-decoration: none;
-  color: white;
+  color: var(--text-color);
 }
 nav a:hover {
   text-decoration: underline;
-  color:paleturquoise;
+  color:var(--highlight-color);
 }
 
 div.searchbar {
@@ -155,4 +219,45 @@ div.searchbar {
   font-family: 'IBM Plex Sans Medium';
   border-style: solid;
   border-width: 0 2px 0 0;
+}
+
+a#linkedin, a#linkedin:visited {
+  color: var(--text-color);
+}
+a#linkedin:hover {
+  color: #0072b1;
+}
+
+a#twitter, a#twitter:visited {
+  color: var(--text-color);
+}
+a#twitter:hover {
+  color: #55acee;
+}
+
+a#instagram, a#instagram:visited {
+  color: var(--text-color);
+}
+a#instagram:hover {
+  color: #e1306c;
+}
+
+a#email, a#email:visited {
+  color: var(--text-color);
+}
+a#email:hover {
+  color: var(--yellow);
+}
+
+a#github, a#github:visited {
+  color: var(--text-color);
+}
+a#github:hover {
+  color: #6cc644;
+}
+
+span.namespan { 
+  min-width: 0.3em;
+  font-size: 50px;
+  font-family: 'IBM Plex Sans Medium';
 }
