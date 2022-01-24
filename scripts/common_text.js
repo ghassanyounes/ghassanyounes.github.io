@@ -40,10 +40,10 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
-    document.getElementById("title").style.display = "flex";
+    document.getElementById("name").style.display = "flex";
   } else {
-    document.getElementById("title").style.display = "none";
+    document.getElementById("name").style.display = "none";
   }
   prevScrollpos = currentScrollPos;
-  console.log(`scroll at ${currentScrollPos}\n`);
+  //console.log(`scroll at ${currentScrollPos}\n`);
 } 

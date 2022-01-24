@@ -16,13 +16,16 @@
 }
 
 html, body {
+  background-image: url("../images/pcb.png");
+  background-position: center; /* Center the image */
+}
+html, body {
   background-color: var(--body-bg-color);
   color: var(--text-color);
   margin: 0;
   padding: 0;
   font-family: 'IBM Plex Sans';
 }
-
 main {
   background-color: var(--main-bg-color);
   margin-left: 5%;
@@ -65,6 +68,9 @@ h5 {
     margin-bottom: 3em;
     border-width: 10px 0 0 0;
   }
+  div.sidebar h3 {
+    font-size: 30px;
+  }
 }
 @media only screen and (min-width:1200px){
   div.maincontent {
@@ -75,6 +81,9 @@ h5 {
     grid-column: col-start 7 / span 3;
     grid-row: span 1;
     border-width: 0 0 0 10px;
+  }
+  div.sidebar:last-of-type {
+    border-width: 0 0 10px 10px;
   }
 }
 
