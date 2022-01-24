@@ -2,3 +2,6 @@ div.maincontent iframe {
   width: 60vw;
   height: 70vh;
 }
+html, body {
+  background-image: url("../store/images/bowties_bg.png");
+}

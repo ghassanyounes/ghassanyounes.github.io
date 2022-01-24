@@ -47,6 +47,7 @@ h1 {
   font-size: 50px;
 }
 h2 {
+  text-align: center;
   font-size: 45px;
 }
 h3 {
@@ -71,19 +72,26 @@ h5 {
   div.sidebar h3 {
     font-size: 30px;
   }
+  div.filler {
+    display: none;
+  }
 }
 @media only screen and (min-width:1200px){
   div.maincontent {
-    grid-column: col-start 1 / span 6;
+    grid-column: 1;
     grid-row: 1 /span 10;
   }
   div.sidebar {
-    grid-column: col-start 7 / span 3;
+    grid-column: 2;
     grid-row: span 1;
     border-width: 0 0 0 10px;
+    max-width: 25vw;
   }
   div.sidebar:last-of-type {
     border-width: 0 0 10px 10px;
+  }
+  div.filler {
+    min-height: 25vh;
   }
 }
 
@@ -115,7 +123,7 @@ div.maincontent p a:hover {
   color: var(--highlight-color);
 }
 div.maincontent img {
-  max-width: 100%;
+  width: 100%;
 }
 
 div.sidebar p, div.sidebar ul {

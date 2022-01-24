@@ -1,3 +1,6 @@
+div.maincontent img { 
+  width: auto;
+}
 div.maincontent div.content {
   display: grid;
   grid-row-gap: 1em;
@@ -50,7 +53,7 @@ div.maincontent div.content img {
 }
 @media only screen and (min-width:1200px){
   div.maincontent div.content img {
-    max-width: 30vw;
+    max-width: 25vw;
     grid-column: col-start 1 / span 3;
     grid-row: span 3;
   }
