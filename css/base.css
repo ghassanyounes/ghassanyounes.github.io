@@ -64,6 +64,7 @@ h5 {
   div.maincontent {
     grid-column: 1 / span 4;
     border-width: 0 0 10px 0;
+    width: 100%;
   }
   div.sidebar {
     grid-row: 2 /span 1;
