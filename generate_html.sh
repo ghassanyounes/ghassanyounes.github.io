@@ -45,12 +45,12 @@ echo -e '    <script src="https://kit.fontawesome.com/7a8c1f7fea.js" crossorigin
 echo -e '  <body>\n    <header>' >> $filename
 echo -ne '      <h1 class="title" id="name">' >> $filename; echo -n $tmp  >> $filename; echo -e '</h1>' >> $filename
 echo -e '      <nav> ' >> $filename
-echo -e '        <a id="home"    href="index.html"      >Home</a>' >> $filename
-echo -e '        <a id="contact" href="contact.html"    >Resumé &amp; Contact</a>' >> $filename
-echo -e '        <a id="projs"   href="projects.html"   >Professional Projects</a>' >> $filename
-echo -e '        <a id="blog"    href="blog/index.html" >Food Blog</a>' >> $filename
-echo -e '        <a id="store"   href="store/index.html">Store</a>' >> $filename
-echo -e '        <a id="about"   href="about.html"      >About</a>' >> $filename
+echo -e '        <a id="home"    href="index"      >Home</a>' >> $filename
+echo -e '        <a id="contact" href="contact"    >Resumé &amp; Contact</a>' >> $filename
+echo -e '        <a id="projs"   href="projects"   >Professional Projects</a>' >> $filename
+echo -e '        <a id="blog"    href="blog/index" >Food Blog</a>' >> $filename
+echo -e '        <a id="store"   href="store/index">Store</a>' >> $filename
+echo -e '        <a id="about"   href="about"      >About</a>' >> $filename
 echo -e '        <div class="searchbar">Search</div>' >> $filename
 echo -e '      </nav>' >> $filename
 echo -e '    </header>' >> $filename
