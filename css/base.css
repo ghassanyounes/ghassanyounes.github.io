@@ -81,7 +81,7 @@ h5 {
     grid-column: 1;
     grid-row: 1 /span 10;
     border-width: 0 10px 0 0 ;
-    min-width: 60vw;
+    min-width: 50vw;
   }
   div.sidebar {
     grid-column: 2;
