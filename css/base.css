@@ -40,7 +40,7 @@ main {
 }
 
 h2, h3, h4, h5 {
-  font-family: 'IBM Plex Sans';
+  font-family: 'IBM Plex Sans','IBM Plex Sans SemiBold','IBM Plex Sans Medium';
 }
 
 h1 {
@@ -134,7 +134,7 @@ div.sidebar p, div.sidebar ul {
   font-family: 'IBM Plex Sans';
 }
 div.sidebar h3 {
-  font-family: 'IBM Plex Sans SemiBold';
+  font-family: 'IBM Plex Sans SemiBold','IBM Plex Sans Medium','IBM Plex Sans';
 }
 div.sidebar {
   padding: 1em;
@@ -187,7 +187,7 @@ header h1 {
   padding-bottom: 0.25em;
   display: flex;
   justify-content: center;
-  font-family: 'IBM Plex Sans Medium';
+  font-family: 'IBM Plex Sans Medium','IBM Plex Sans SemiBold','IBM Plex Sans';
   margin: 0;
 }
 
