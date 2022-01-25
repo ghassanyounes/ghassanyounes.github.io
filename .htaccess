@@ -12,3 +12,7 @@ RewriteCond %{HTTPS} off
 RewriteCond %{HTTP_HOST} (www\.)?ghassanyounes.com
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 # DO NOT REMOVE THIS LINE AND THE LINES BELLOW SSL_REDIRECT:ghassanyounes.com
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L] 
