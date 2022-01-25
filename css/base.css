@@ -35,7 +35,7 @@ main {
   grid-template-columns: repeat(10, auto);
   grid-auto-rows: minmax(0, auto);
   grid-auto-flow: row;
-  padding-top: 8em;
+  padding-top: 6em;
   padding-bottom: 1em;
 }
 
@@ -63,11 +63,11 @@ h5 {
 @media only screen and (max-width:1200px){
   div.maincontent {
     grid-column: 1 / span 4;
+    border-width: 0 0 10px 0;
   }
   div.sidebar {
     grid-row: 2 /span 1;
     margin-bottom: 3em;
-    border-width: 10px 0 0 0;
   }
   div.sidebar h3 {
     font-size: 30px;
@@ -80,25 +80,26 @@ h5 {
   div.maincontent {
     grid-column: 1;
     grid-row: 1 /span 10;
+    border-width: 0 10px 0 0 ;
+    min-width: 60vw;
   }
   div.sidebar {
     grid-column: 2;
     grid-row: span 1;
-    border-width: 0 0 0 10px;
     max-width: 25vw;
   }
   div.sidebar:last-of-type {
     border-width: 0 0 10px 10px;
-  }
-  div.filler {
-    min-height: 25vh;
   }
 }
 
 div.maincontent {
   padding: 2em;
   padding-top: 1em;
+  margin-top: 0;
   vertical-align: top;
+  border-style: solid;
+  border-color: var(--body-bg-color);
 }
 div.maincontent p {
   text-align: justify;
@@ -139,8 +140,6 @@ div.sidebar {
   padding-right: 2em;
   padding-bottom: 0.25em;
   padding-top: 0.25em;
-  border-style: solid;
-  border-color: var(--body-bg-color);
 }
 
 header {
