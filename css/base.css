@@ -110,7 +110,7 @@ div.maincontent p {
 div.maincontent p:first-of-type:first-letter {
   float: left;
   font-size: 48px;
-  line-height: 1;
+  line-height: 3;
   font-weight: bold;
   margin-right: 0.05em;
   margin-top: 0.075em;
