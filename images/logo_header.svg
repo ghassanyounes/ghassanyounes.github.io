@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="500mm"
-   height="300mm"
-   viewBox="0 0 500 300"
+   width="479.06168mm"
+   height="63.460392mm"
+   viewBox="0 0 479.06168 63.460392"
    version="1.1"
    id="svg116707"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
-   sodipodi:docname="logo.svg"
+   sodipodi:docname="logo_header.svg"
    inkscape:export-filename="/home/bigtiddypiratebf/git/ghassanyounes.github.io/images/logo_text_white.png"
    inkscape:export-xdpi="174.07466"
    inkscape:export-ydpi="174.07466"
@@ -27,14 +27,14 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.45254834"
-     inkscape:cx="1051.8213"
-     inkscape:cy="732.51843"
+     inkscape:cx="1012.0466"
+     inkscape:cy="286.15728"
      inkscape:window-width="1920"
      inkscape:window-height="1020"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g25977"
+     inkscape:current-layer="g20696"
      showguides="true"
      inkscape:guide-bbox="true" />
   <defs
@@ -53,138 +53,10 @@
        id="rect128211" />
   </defs>
   <g
-     inkscape:label="Background"
-     inkscape:groupmode="layer"
-     id="layer1"
-     style="display:inline"
-     transform="translate(100)">
-    <rect
-       style="display:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00027;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect25984"
-       width="500"
-       height="70"
-       x="-100"
-       y="115"
-       inkscape:label="thin_bg"
-       inkscape:export-filename="logo_text_long_transparent_white.png"
-       inkscape:export-xdpi="174.07466"
-       inkscape:export-ydpi="174.07466" />
-    <circle
-       style="display:none;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
-       id="path1213"
-       cx="150"
-       cy="150"
-       r="150"
-       inkscape:export-filename="/home/bigtiddypiratebf/git/ghassanyounes.github.io/images/logo_simple_gap_circle_black.png"
-       inkscape:export-xdpi="174.07466"
-       inkscape:export-ydpi="174.07466"
-       inkscape:label="round_bg" />
-    <rect
-       style="display:none;fill:#ffffff;fill-opacity:1;stroke-width:4.99999"
-       id="rect116733"
-       width="500"
-       height="300"
-       x="-100"
-       y="0"
-       inkscape:label="long_bg" />
-    <rect
-       style="display:none;fill:#000000;fill-opacity:1;stroke-width:3.87298"
-       id="rect24898"
-       width="300"
-       height="300"
-       x="2.8421709e-14"
-       y="0"
-       inkscape:export-filename="logo_simple_black.png"
-       inkscape:export-xdpi="174.07466"
-       inkscape:export-ydpi="174.07466"
-       inkscape:label="square_bg" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer4"
-     inkscape:label="Undertext"
-     transform="translate(100)"
-     style="display:inline">
-    <g
-       id="g2624"
-       transform="translate(-7e-6,2.381218)"
-       style="display:none;fill:#000000;fill-opacity:1;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
-       inkscape:label="Cropped Circle"
-       inkscape:export-filename="/home/bigtiddypiratebf/git/ghassanyounes.github.io/images/logo_text_transparent_white.png"
-       inkscape:export-xdpi="174.07466"
-       inkscape:export-ydpi="174.07466"
-       inkscape:groupmode="layer">
-      <g
-         id="g33344"
-         style="display:inline;fill:#000000;fill-opacity:1;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
-         inkscape:export-filename="C:\Users\ghass\Documents\logo_text_gap_transparent_white.png"
-         inkscape:export-xdpi="174.07466"
-         inkscape:export-ydpi="174.07466"
-         transform="translate(-0.013286,-2.422216)"
-         inkscape:label="cropped_circle">
-        <path
-           style="color:#000000;display:inline;fill:#000000;fill-opacity:1;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
-           d="M 261.48132,174.99411 C 250.10418,226.09368 204.56139,264.2168 150,264.2168 c -54.547296,0 -100.080645,-38.10342 -111.472875,-89.18309 l -11.788373,0.10916 C 39.093619,231.62325 89.846437,275.7832 150,275.7832 c 60.83355,0 111.66626,-43.32415 123.28782,-100.76218 l -6.29132,0.002 z M 115.38329,29.061232 C 70.678389,41.88085 36.109193,78.886256 26.739247,124.92578 c -0.0069,0.0339 11.784173,0.0571 11.784173,0.0571 8.867628,-39.78807 38.449768,-71.705334 76.87269,-83.878053 l -0.0795,-5.806624 z"
-           id="circle22328"
-           sodipodi:nodetypes="csccsccccscccc" />
-        <path
-           d="m 184.62145,29.061235 c 44.7049,12.819618 79.27409,49.825024 88.64404,95.864545 0.007,0.0339 -11.78417,0.0571 -11.78417,0.0571 -8.86764,-39.788071 -38.44978,-71.705333 -76.8727,-83.87805 l 0.0795,-5.806625 z"
-           style="color:#000000;display:inline;fill:#000000;fill-opacity:1;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
-           id="path33043" />
-      </g>
-      <g
-         id="g2616"
-         style="display:inline;opacity:0;fill:#000000;fill-opacity:1;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
-         inkscape:export-filename="C:\Users\ghass\Documents\logo_text_gap_transparent_white.png"
-         inkscape:export-xdpi="174.07466"
-         inkscape:export-ydpi="174.07466"
-         transform="rotate(180,150.00665,148.82989)"
-         inkscape:label="cropped_circle">
-        <path
-           style="color:#000000;display:inline;fill:#000000;fill-opacity:1;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
-           d="M 261.48132,174.99411 C 250.10418,226.09368 204.56139,264.2168 150,264.2168 c -54.547296,0 -100.080645,-38.10342 -111.472875,-89.18309 l -11.788373,0.10916 C 39.093619,231.62325 89.846437,275.7832 150,275.7832 c 60.83355,0 111.66626,-43.32415 123.28782,-100.76218 l -6.29132,0.002 z M 115.38329,29.061232 C 70.678389,41.88085 36.109193,78.886256 26.739247,124.92578 c -0.0069,0.0339 11.784173,0.0571 11.784173,0.0571 8.867628,-39.78807 38.449768,-71.705334 76.87269,-83.878053 l -0.0795,-5.806624 z"
-           id="path2612"
-           sodipodi:nodetypes="csccsccccscccc" />
-        <path
-           d="m 184.62145,29.061235 c 44.7049,12.819618 79.27409,49.825024 88.64404,95.864545 0.007,0.0339 -11.78417,0.0571 -11.78417,0.0571 -8.86764,-39.788071 -38.44978,-71.705333 -76.8727,-83.87805 l 0.0795,-5.806625 z"
-           style="color:#000000;display:inline;fill:#000000;fill-opacity:1;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
-           id="path2614" />
-      </g>
-    </g>
-    <g
-       id="g2592"
-       inkscape:label="Full Circle"
-       style="display:none;fill:#ffffff;fill-opacity:1"
-       transform="translate(0.1202705,0.4088905)"
-       inkscape:export-filename="/home/bigtiddypiratebf/git/ghassanyounes.github.io/images/logo_simple_transparent_white.png"
-       inkscape:export-xdpi="174.07466"
-       inkscape:export-ydpi="174.07466"
-       inkscape:groupmode="layer">
-      <path
-         style="color:#000000;display:inline;fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
-         d="m 184.51815,40.584777 c 46.34901,14.616959 79.89396,57.906115 79.89396,109.126603 0,63.25394 -51.15817,114.41211 -114.41211,114.41211 -63.253937,0 -114.412109,-51.15817 -114.412109,-114.41211 0,-51.206581 33.526735,-94.486137 79.856219,-109.114691 l -0.0118,-11.552856 C 62.964205,44.076076 24.5,92.452015 24.5,149.71138 c 0,69.24601 56.253993,125.5 125.5,125.5 69.24601,0 125.5,-56.25399 125.5,-125.5 0,-57.287158 -38.50155,-105.682264 -91.00874,-120.689412 z"
-         id="path12863"
-         sodipodi:nodetypes="csssccssscc"
-         inkscape:export-filename="logo_simple_black.png"
-         inkscape:export-xdpi="174.07466"
-         inkscape:export-ydpi="174.07466"
-         inkscape:label="full_circle" />
-      <path
-         style="color:#000000;display:inline;opacity:0;fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
-         d="m 258.88605,183.98897 c -14.61696,46.34901 -57.90612,79.89396 -109.12661,79.89396 -63.253921,0 -114.412091,-51.15817 -114.412091,-114.41211 0,-63.253918 51.15817,-114.41209 114.412091,-114.41209 51.20658,0 94.48614,33.526735 109.11469,79.8562 l 11.55286,-0.0118 C 255.39475,62.435044 207.01881,23.970839 149.75944,23.970839 c -69.245991,0 -125.499981,56.253993 -125.499981,125.499981 0,69.24601 56.25399,125.5 125.499981,125.5 57.28716,0 105.68227,-38.50155 120.68942,-91.00874 z"
-         id="path2588"
-         sodipodi:nodetypes="csssccssscc"
-         inkscape:export-filename="/home/bigtiddypiratebf/git/ghassanyounes.github.io/images/logo_simple_gap_circle_black.png"
-         inkscape:export-xdpi="174.07466"
-         inkscape:export-ydpi="174.07466"
-         inkscape:label="full_circle" />
-    </g>
-  </g>
-  <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Text"
-     transform="translate(100)"
+     transform="translate(89.530837,-118.26981)"
      style="display:inline">
     <g
        id="g22128"
@@ -372,32 +244,9 @@
     </g>
   </g>
   <g
-     inkscape:groupmode="layer"
-     id="layer5"
-     inkscape:label="Symbol"
-     style="display:none">
-    <path
-       d="m 255.14779,44.013498 c -6.53526,-3.143194 -12.01827,-6.056765 -16.44899,-8.740714 -4.43075,-2.68396 -7.14881,-4.729604 -8.15419,-6.13696 L 242.75214,6.4633731 269.45539,20.632105 c -3.60567,11.215933 -11.50021,21.903393 -14.3076,23.381393 z"
-       style="font-size:400px;line-height:1.25;font-family:Harmattan;-inkscape-font-specification:'Harmattan, Normal';white-space:pre;display:inline;fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
-       id="path22673"
-       inkscape:label="Nuqta"
-       inkscape:export-filename="logo_simple_black.png"
-       inkscape:export-xdpi="174.07466"
-       inkscape:export-ydpi="174.07466" />
-    <path
-       d="m 301.21501,237.1854 c -3.41972,2.6819 -7.30701,4.19403 -11.23709,5.34925 -3.91101,1.25791 -8.58886,2.3926 -14.03349,3.40404 -15.20391,2.82444 -28.64987,2.24032 -40.33783,-1.75232 -11.66887,-3.88994 -21.14531,-9.99382 -28.42932,-18.31161 -7.26491,-8.21509 -11.85158,-17.45909 -13.75996,-27.73199 -2.19464,-11.81384 -0.45144,-23.88108 5.2307,-36.20168 5.68179,-12.32057 16.07163,-22.75261 31.16959,-31.29614 -6.85527,-3.72141 -12.19451,-8.14955 -16.01782,-13.28438 -3.72057,-5.15388 -6.01023,-10.04227 -6.86899,-14.66508 -1.60306,-8.629251 -0.75892,-16.384681 2.53248,-23.266281 3.29144,-6.881641 8.18545,-12.573157 14.68219,-17.074562 6.47763,-4.604131 13.67151,-7.640919 21.58164,-9.110377 8.11557,-1.507626 16.46242,-1.198411 25.0405,0.927657 8.5781,2.126056 16.29556,6.484324 23.15238,13.074853 -0.94931,3.470845 -2.60457,6.860309 -4.96573,10.168329 -2.25841,3.28897 -5.20589,6.01511 -8.84241,8.17849 -9.85668,-9.008877 -20.38379,-12.473233 -31.58127,-10.393086 -7.29377,1.35495 -12.5167,4.131876 -15.66879,8.330766 -3.04942,4.17981 -4.12566,8.68385 -3.22872,13.51213 1.12595,6.061011 5.64196,11.492271 13.54806,16.293721 7.90606,4.80149 19.78101,6.36822 35.62485,4.70024 1.46945,7.91012 0.21438,15.74188 -3.76529,23.49529 -7.00183,-0.50596 -13.53327,-0.19595 -19.59427,0.92998 -8.73196,1.62213 -16.37858,4.79619 -22.93983,9.52215 -6.56127,4.72591 -11.43625,10.52016 -14.62492,17.3827 -3.08594,6.84346 -3.88464,14.27161 -2.39609,22.28448 1.24045,6.67742 4.3946,12.78675 9.46242,18.32803 5.0869,5.644 12.01847,9.77635 20.79471,12.39695 8.77623,2.6206 19.32808,2.78589 31.65559,0.49582 3.9364,-0.73127 8.09683,-1.82444 10.80171,-3.70197 2.70491,-1.87752 -0.0875,-22.34854 -2.0786,-23.08452 -1.8777,-0.69407 -5.02031,-0.18371 -7.05751,0.28229 -2.03719,0.46593 -4.10883,0.98235 -6.21494,1.54884 -2.67575,0.71972 -5.40713,1.52043 -8.19417,2.40223 -2.78705,0.88181 -5.62973,1.84464 -8.5281,2.88855 -0.33398,-1.79779 -0.48725,-3.69553 -0.45982,-5.69327 0.16932,-3.7969 0.83642,-7.24679 1.79818,-9.96948 0.6981,-1.96289 1.5813,-3.7875 2.64962,-5.47379 2.03912,-0.75077 4.05976,-1.45826 6.06187,-2.12244 2.00209,-0.66417 3.98565,-1.28507 5.9507,-1.86267 1.9555,-0.62896 4.10273,-1.2271 6.44164,-1.79444 2.33892,-0.56737 4.86953,-1.10388 7.59184,-1.6096 8.05811,-1.16092 12.11864,1.69651 13.58797,4.81589 0.65807,1.39701 6.30748,27.98576 7.26052,35.33762 0.49233,3.79796 0.77414,7.61909 0.0575,12.05633 -0.71668,4.43724 -2.71015,7.82923 -5.85168,10.29307 z"
-       id="path7240"
-       style="font-size:400px;line-height:1.25;font-family:Harmattan;-inkscape-font-specification:'Harmattan, Normal';white-space:pre;display:inline;fill:#ffffff;fill-opacity:1;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
-       sodipodi:nodetypes="scsccssccsscsscccscssccsscscsscssssccccscscsscss"
-       inkscape:label="Base"
-       inkscape:export-filename="logo_simple_black.png"
-       inkscape:export-xdpi="174.07466"
-       inkscape:export-ydpi="174.07466" />
-  </g>
-  <g
      id="g25977"
      inkscape:label="small_symbol"
-     transform="matrix(0.23147898,0,0,0.23147898,215.27815,116.77367)"
+     transform="matrix(0.23147898,0,0,0.23147898,204.80899,-1.496135)"
      inkscape:export-filename="C:\Users\ghass\Documents\logo_text_long_transparent_white.png"
      inkscape:export-xdpi="174.07466"
      inkscape:export-ydpi="174.07466"

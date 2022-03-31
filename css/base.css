@@ -3,31 +3,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Harmattan:wght@400;700&display=swap');
 
 :root {
-  --text-color: white;
-  --main-bg-color: #4b4b4b;
-  --body-bg-color: #222222;
-  --head-foot-bg-color: black;
-  --highlight-color: paleturquoise;
-    --pink:#d8117d;
-     --red:#d9362d;
+  --pink:#d8117d;
+  --red:#d9362d;
   --orange:#e5712a;
   --yellow:#f8be23;
-   --green:#069743;
-    --blue:#00a3da;
+  --green:#069743;
+  --blue:#00a3da;
   --purple:#773e85;
   --base-font:'Harmattan','IBM Plex Sans','IBM Plex Sans Arabic','IBM Plex Sans SemiBold','IBM Plex Sans Medium',sans-serif;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --text-color: black;
+    --main-bg-color: #bebebe;
+    --body-bg-color: #dddddd;
+    --head-foot-bg-color: white;
+    --highlight-color: forestgreen;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: white;
+    --main-bg-color: #4b4b4b;
+    --body-bg-color: #222222;
+    --head-foot-bg-color: black;
+    --highlight-color: paleturquoise;
+  }
 }
 
 html, body {
   background-image: url("../images/pcb.png");
   background-position: center; /* Center the image */
-}
-html, body {
+  /* background-repeat: no-repeat; */ /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
   background-color: var(--body-bg-color);
   color: var(--text-color);
   margin: 0;
   padding: 0;
   font-family: var(--base-font);
+  min-height: 100vh;
 }
 main {
   background-color: var(--main-bg-color);
@@ -44,6 +59,7 @@ main {
 
 h2, h3, h4, h5 {
   font-family: var(--base-font);
+  margin-bottom: 0;
 }
 
 h1 {
@@ -67,7 +83,6 @@ h5 {
   div.maincontent {
     grid-column: 1 / span 4;
     border-width: 0 0 10px 0;
-    width: 100%;
   }
   div.sidebar {
     grid-row: 2 /span 1;
@@ -131,12 +146,13 @@ div.sidebar p, div.sidebar ul {
 div.sidebar h3 {
   font-weight: bold;
   font-family: var(--base-font);
+  line-height: 100%;
 }
 div.sidebar {
   padding: 1em;
   padding-right: 2em;
   padding-bottom: 0.25em;
-  padding-top: 0.25em;
+  padding-top: 2em;
 }
 
 header {
@@ -206,6 +222,8 @@ nav a {
   vertical-align: middle;
   border-style: solid;
   border-width: 0 2px 0 0;
+  font-size: 14pt;
+  line-height: 100%;
 }
 nav a:first-of-type {
   border-style: solid;
@@ -233,6 +251,8 @@ div.searchbar {
   font-family: var(--base-font);
   border-style: solid;
   border-width: 0 2px 0 0;
+  font-size: 16pt;
+  line-height: 100%;
 }
 
 a#linkedin, a#linkedin:visited {
@@ -277,5 +297,12 @@ span.namespan {
 }
 
 p {
-  font-size: 18pt;
+  font-size: 16pt;
+  line-height: 100%;
+}
+
+img#logo_title {
+  height: 86px;
+  width: auto;
+  vertical-align: middle;
 }

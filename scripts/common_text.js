@@ -47,3 +47,16 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
   //console.log(`scroll at ${currentScrollPos}\n`);
 } 
+
+const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
+darkThemeMq.addListener(e => {
+  if (e.matches) {
+    if (document.getElementById("logo_title") != null) {
+      document.getElementById("logo_title").src = "images/logo_header.svg"
+    }
+  } else {
+    if (document.getElementById("logo_title") != null) {
+      document.getElementById("logo_title").src = "images/logo_header_light.svg"
+    }
+  }
+});
