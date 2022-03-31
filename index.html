@@ -9,6 +9,7 @@
     <link rel="manifest" href="/favicons/site.webmanifest">
     <link rel="stylesheet" href="css/base.css" />
     <script src="https://kit.fontawesome.com/7a8c1f7fea.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   </head>
   <body>
     <header>
@@ -30,7 +31,6 @@
         <p>Hello and welcome to my site. I'm Ghassan Younes, a Computer Engineering student at DigiPen Institute of Technology. I also run a <a href="blog/index.html">food blog</a> and sell <a href="store/index.html">various crafts</a>. This website is currently under construction so please excuse any broken links or missing information. For any business inquiries I am available at <a target=blank href="mailto:ghassan@ghassanyounes.com">ghassan[at]ghassanyounes[dot]com</a>, and for shop orders and other such queries you can contact me at <a target=blank href="mailto:info@ghassanyounes.com">info[at]ghassanyounes[dot]com</a>. You can find my other contact info on my <a href="about.html">'About Me'</a> page or my <a target=blank href="http://linkedin.com/in/ghassanyounes">LinkedIn</a>.
         </p>
 
-        <!-- TODO: Slideshow JS stuff-->
         <div class="slideshow-container">
 
           <div class="slide fade">
@@ -63,12 +63,18 @@
         </div>
 
         <!-- <img id="slideshow" src="images/oldlady.jpg" /> -->
-      </div>
+      </div> <!-- Main content done -->
+      <!--
+        TODO: implement jquery to fetch tidbits of info from other pages and display blurbs
+        Food and shop pages will need hyperlinks but project reports can remain html pulls or maybe
+        it should be a twitter feed? not sure. 
+        https://stackoverflow.com/questions/2828109/show-div-from-another-website
+      -->
       <div class="sidebar">
         <h3>Project Updates</h3>
-        <object data="./progress_reports/20220331.html" scrolling="none">
+        <p id="projupdate">
           Placeholder Text
-        </object>
+        </p>
       </div>
       <div class="sidebar">
         <h3>Adventures in the Food World</h3>
@@ -105,6 +111,7 @@
     </footer>
     <script src="scripts/common_text.js"></script>
     <script src="scripts/slideshow.js"></script>
+    <script src="scripts/jquery_replacements.js"></script>
     <!-- <script src="scripts/name-change-color.js"></script> -->
   </body>
 </html>
