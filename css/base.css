@@ -170,6 +170,7 @@ header {
   top:0;
   padding-top: 0;
   margin-top: 0;
+  z-index: 255;
 }
 
 header, footer {
@@ -327,6 +328,7 @@ img#logo_title {
 /* Hide the images by default */
 .slide {
   display: none;
+  z-index: 0;
 }
 
 /* Next & previous buttons */
