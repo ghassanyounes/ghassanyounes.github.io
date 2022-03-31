@@ -1,5 +1,6 @@
 @import "../fonts/IBMPlex/css/ibm-plex.css";
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Harmattan:wght@400;700&display=swap');
 
 :root {
   --text-color: white;
@@ -14,6 +15,7 @@
    --green:#069743;
     --blue:#00a3da;
   --purple:#773e85;
+  --base-font:'Harmattan','IBM Plex Sans','IBM Plex Sans Arabic','IBM Plex Sans SemiBold','IBM Plex Sans Medium',sans-serif;
 }
 
 html, body {
@@ -41,7 +43,7 @@ main {
 }
 
 h2, h3, h4, h5 {
-  font-family: 'IBM Plex Sans','IBM Plex Sans SemiBold','IBM Plex Sans Medium', sans-serif;
+  font-family: var(--base-font);
 }
 
 h1 {
@@ -107,13 +109,6 @@ div.maincontent p {
   text-align: justify;
   text-justify: inter-word;
 }
-/* div.maincontent p:first-of-type:first-letter {
-  float: left;
-  font-size: 400%;
-  font-weight: bold;
-  margin-right: 0.05em;
-  margin-top: 0.075em;
-} */
 div.maincontent p a {
   text-decoration: underline;
   color: inherit;
@@ -131,10 +126,11 @@ div.maincontent img {
 div.sidebar p, div.sidebar ul {
   text-align: justify;
   text-justify: inter-word;
-  font-family: 'IBM Plex Sans','IBM Plex Sans SemiBold','IBM Plex Sans Medium', sans-serif;
+  font-family: var(--base-font);
 }
 div.sidebar h3 {
-  font-family: 'IBM Plex Sans SemiBold','IBM Plex Sans Medium','IBM Plex Sans', sans-serif;
+  font-weight: bold;
+  font-family: var(--base-font);
 }
 div.sidebar {
   padding: 1em;
@@ -177,7 +173,7 @@ footer a {
 footer p { 
   display: inline-block;
   justify-content: center;
-  font-family: 'IBM Plex Sans Medium','IBM Plex Sans SemiBold','IBM Plex Sans', sans-serif;
+  font-family: var(--base-font);
   margin-top: 0.25em;
   margin-bottom: 0.25em;
 }
@@ -187,7 +183,8 @@ header h1 {
   padding-bottom: 0.25em;
   display: flex;
   justify-content: center;
-  font-family: 'IBM Plex Sans Medium','IBM Plex Sans SemiBold','IBM Plex Sans', sans-serif;
+  font-weight: bold,bolder;
+  font-family: var(--base-font);
   margin: 0;
 }
 
@@ -204,7 +201,7 @@ nav a {
   padding-right: 1em;
   padding-top: 0.25em;
   color: var(--text-color);
-  font-family: 'IBM Plex Sans Medium','IBM Plex Sans SemiBold','IBM Plex Sans', sans-serif;
+  font-family: var(--base-font);
   font-weight: bolder;
   vertical-align: middle;
   border-style: solid;
@@ -233,7 +230,7 @@ div.searchbar {
   padding-top: 0.25em;
   padding-bottom: 0.25em;
   display: inline-block;
-  font-family: 'IBM Plex Sans Medium','IBM Plex Sans SemiBold','IBM Plex Sans', sans-serif;
+  font-family: var(--base-font);
   border-style: solid;
   border-width: 0 2px 0 0;
 }
@@ -276,5 +273,5 @@ a#github:hover {
 span.namespan { 
   min-width: 0.3em;
   font-size: 50px;
-  font-family: 'IBM Plex Sans Medium','IBM Plex Sans SemiBold','IBM Plex Sans', sans-serif;
+  font-family: var(--base-font);
 }
