@@ -49,6 +49,17 @@ window.onscroll = function() {
 } 
 
 const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
+if (darkThemeMq.matches) {
+  if (document.getElementById("logo_title") != null) {
+    document.getElementById("logo_title").src = "images/logo_header.svg";
+    console.log("dark mode detected");
+  }
+} else {
+  if (document.getElementById("logo_title") != null) {
+    document.getElementById("logo_title").src = "images/logo_header_light.svg";
+    console.log("light mode detected");
+  }
+}
 darkThemeMq.addEventListener('change', e => {
   if (e.matches) {
     if (document.getElementById("logo_title") != null) {
