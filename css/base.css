@@ -31,11 +31,19 @@
     --highlight-color: paleturquoise;
   }
 }
+@media (prefers-color-scheme: no-preference) {
+  :root {
+    --text-color: white;
+    --main-bg-color: #4b4b4b;
+    --body-bg-color: #222222;
+    --head-foot-bg-color: black;
+    --highlight-color: paleturquoise;
+  }
+}
 
 html, body {
   background-image: url("../images/pcb.png");
   background-position: center; /* Center the image */
-  /* background-repeat: no-repeat; */ /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
   background-color: var(--body-bg-color);
   color: var(--text-color);
@@ -305,4 +313,93 @@ img#logo_title {
   height: 86px;
   width: auto;
   vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.slide {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(0,0,0,0.1);
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.caption {
+  color: var(--text-color);
+  font-size: 15px;
+  padding: 1em 0;
+  position: absolute;
+  bottom: 0.75em;
+  display: block ;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(34, 34, 34, 0.6);
+}
+
+/* Number text (1/3 etc) */
+.imgnum {
+  color: var(--text-color);
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: var(--body-bg-color);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: var(--text-color);
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
