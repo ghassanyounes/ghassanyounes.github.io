@@ -275,3 +275,7 @@ span.namespan {
   font-size: 50px;
   font-family: var(--base-font);
 }
+
+p {
+  font-size: 16pt;
+}
