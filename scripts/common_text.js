@@ -52,11 +52,13 @@ const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
 darkThemeMq.addEventListener('change', e => {
   if (e.matches) {
     if (document.getElementById("logo_title") != null) {
-      document.getElementById("logo_title").src = "images/logo_header_light.svg"
+      document.getElementById("logo_title").src = "images/logo_header.svg";
+      console.log("dark mode detected");
     }
   } else {
     if (document.getElementById("logo_title") != null) {
-      document.getElementById("logo_title").src = "images/logo_header_light.svg"
+      document.getElementById("logo_title").src = "images/logo_header_light.svg";
+      console.log("light mode detected");
     }
   }
 });
