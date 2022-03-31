@@ -334,7 +334,7 @@ img#logo_title {
   top: 50%;
   width: auto;
   margin-top: -22px;
-  padding: 16px;
+  padding: 0.5em;
   color: white;
   font-weight: bold;
   font-size: 18px;
@@ -346,8 +346,13 @@ img#logo_title {
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
+  right: -1.5em;
   border-radius: 3px 0 0 3px;
+}
+
+/* Position the "next button" to the right */
+.prev {
+  left: -1.5em;
 }
 
 /* On hover, add a black background color with a little bit see-through */
