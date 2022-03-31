@@ -49,7 +49,7 @@ window.onscroll = function() {
 } 
 
 const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
-darkThemeMq.addListener(e => {
+darkThemeMq.addEventListener(e => {
   if (e.matches) {
     if (document.getElementById("logo_title") != null) {
       document.getElementById("logo_title").src = "images/logo_header.svg"
