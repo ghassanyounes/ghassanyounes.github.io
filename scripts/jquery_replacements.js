@@ -1,10 +1,13 @@
+var recent_prj_update = "";
+
 $.post("scripts/listProgressDir.php", function(progressDirList) {
   //console.log(progressDirList); //"progressDirList" contains whatever listProgressDir.php returned
   let text = progressDirList.split("\n");
-  text.forEach(i => {
-    i = i.substr(20);
-    if (i.indexOf(".html") != null)
-      console.log(i);
-  });
+  for (var i = 0; i < text.length; i++) {
+    text[i] = text[i].cut(text[i].substr(20), text[i].indexOf(".html"));
+  }
+  console.log(text);
+  recent_prj_update = text.reduce((a,b) => (a >= b) ? a : b );
+  console.log(`Most recent file is ${recent_prj_update}\n`);
 });
 $('#projupdate').load('../progress_reports/20220331.html #report');
