@@ -8,5 +8,5 @@ $.post("scripts/listProgressDir.php", function(progressDirList) {
   console.log(text);
   recent_prj_update = text.reduce((a,b) => (a >= b) ? a : b );
   console.log(`Most recent file is ${recent_prj_update}\n`);
+  $('#projupdate').load(`${recent_prj_update}.html #report`);
 });
-$('#projupdate').load(`${recent_prj_update}.html #report`);
