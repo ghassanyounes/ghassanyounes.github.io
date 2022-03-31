@@ -52,7 +52,7 @@ const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
 darkThemeMq.addEventListener('change', e => {
   if (e.matches) {
     if (document.getElementById("logo_title") != null) {
-      document.getElementById("logo_title").src = "images/logo_header.svg"
+      document.getElementById("logo_title").src = "images/logo_header_light.svg"
     }
   } else {
     if (document.getElementById("logo_title") != null) {
