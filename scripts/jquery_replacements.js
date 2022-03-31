@@ -3,7 +3,8 @@ $.post("scripts/listProgressDir.php", function(progressDirList) {
   let text = progressDirList.split("\n");
   text.forEach(i => {
     i = i.substr(20);
-    console.log(i);
+    if (i.indexOf(".html") != null)
+      console.log(i);
   });
 });
 $('#projupdate').load('../progress_reports/20220331.html #report');
