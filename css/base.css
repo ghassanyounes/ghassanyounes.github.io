@@ -455,3 +455,27 @@ div.about {
     padding-right: 1em;
   }
 }
+
+iframe#resume {
+  width:100%;
+  height: 80vh;
+  border: 0;
+}
+
+h3.link {
+  padding-top: 1em;
+  padding-right: 1em;
+}
+
+h3.link a {
+  background-color: var(--body-bg-color-transparent);
+  padding: 0.25em;
+  text-decoration: underline;
+  color: inherit;
+}
+h3.link a:visited {
+  color: inherit;
+}
+h3.link a:hover {
+  color: var(--highlight-color);
+}
