@@ -479,3 +479,37 @@ h3.link a:visited {
 h3.link a:hover {
   color: var(--highlight-color);
 }
+
+form {
+  display: grid;
+}
+
+form .formname {
+  grid-column: 1;
+}
+form .formemail {
+  grid-column: 2;
+}
+form .formmessage {
+  grid-column: 1 /span 2;
+}
+
+form input.formmessage {
+  min-height: 5em;
+}
+
+form div.formname, form div.formemail {
+  grid-row: 1;
+  padding-left: 1em;
+}
+
+form div.formmessage {
+  margin-top: 1em;
+  padding-left: 1em;
+}
+
+form #submit {
+  margin-top: 2em;
+  grid-column: 1 /span 2;
+  width: 10em;
+}

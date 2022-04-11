@@ -27,30 +27,30 @@
     </header>
     <main id="main">
       <div class="maincontent">
-      <h2>Resume and Contact Info</h2>
-      <p>You can find my <a href="./content/Ghassan_Younes_Resume_2022.pdf">resume linked here</a>.
-      <br />
-      With regards to contact information - I am available at the following:</p>
-      <ul class="descriptor">
-        <li>Business inquiries: <a target=blank href="mailto:ghassan@ghassanyounes.com">ghassan[at]ghassanyounes[dot]com</a>.</li>
-        <li>Shop orders and related queries: <a target=blank href="mailto:info@ghassanyounes.com">info[at]ghassanyounes[dot]com</a>.</li> 
-        <!-- <li>You can find me on <a target=blank href="www.instagram.com/the__ghassan">Instagram</a> and <a target=blank href="www.twitter.com/the__ghassan">Twitter</a>.</li> -->
-        <li>I have pages for my storefront on <a target=blank href="www.instagram.com/gyounes">Instagram</a> and <a target=blank href="www.twitter.com/gyounes">Twitter</a>.</li>
-        <li>Open Source project contributions can be found on my <a target=blank href="http://github.com/ghassanyounes">GitHub</a>.</li>
-      </ul>
-       
+        <h2>Resume and Contact Info</h2>
+        <p>
+          You can find my <a href="./content/Ghassan_Younes_Resume_2022.pdf">resume linked here</a>.
+          <br />
+          With regards to contact information - I am available at the following:
+        </p>
+        <ul class="descriptor">
+          <li>Business inquiries: <a target=blank href="mailto:ghassan@ghassanyounes.com">ghassan[at]ghassanyounes[dot]com</a>.</li>
+          <li>Shop orders and related queries: <a target=blank href="mailto:info@ghassanyounes.com">info[at]ghassanyounes[dot]com</a>.</li> 
+          <!-- <li>You can find me on <a target=blank href="www.instagram.com/the__ghassan">Instagram</a> and <a target=blank href="www.twitter.com/the__ghassan">Twitter</a>.</li> -->
+          <li>I have pages for my storefront on <a target=blank href="www.instagram.com/gyounes">Instagram</a> and <a target=blank href="www.twitter.com/gyounes">Twitter</a>.</li>
+          <li>Open Source project contributions can be found on my <a target=blank href="http://github.com/ghassanyounes">GitHub</a>.</li>
+        </ul>
 
-      <form method="post" name="contact_form" action="scripts/contactform.php">
-            Your Name:
-            <input type="text" name="name">
+        <form method="post" name="contact_form" action="scripts/contactform.php">
+          <div class="formname">Your Name:</div>
+          <input class="formname" type="text" name="name">
 
-            Email Address:
-            <input type="text" name="email">
-            <br />
-            Message:
-            <textarea name="message"></textarea>
-
-            <input type="submit" value="Submit">
+          <div class="formemail">Email Address:</div>
+          <input class="formemail" type="text" name="email">
+          <br />
+          <div class="formmessage">Message:</div>
+          <textarea class="formmessage" name="message" rows="10"></textarea>
+          <input id="submit" type="submit" value="Submit">
         </form>	
       </div> <!-- main content -->
       
