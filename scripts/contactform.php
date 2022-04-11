@@ -31,7 +31,7 @@ if( empty($errors))
 	
 	mail($to,$email_subject,$email_body,$headers);
 	//redirect to the 'thank you' page
-	header('Location: contact-form-submitted.html');
+	header('Location: ../contact-form-submitted.html');
 } 
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
