@@ -439,17 +439,19 @@ div.about {
   margin: 0;
 }
 
-img#side { 
-  float: left; 
-}
 @media only screen and (max-width:1200px){
   img#side {
-    width: 100%;
+    width: 60%;
+    padding-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
 }
 @media only screen and (min-width:1200px){
   img#side {
-    width: 40%;
+    float: left; 
+    width: 45%;
     padding-right: 1em;
   }
 }
