@@ -9,7 +9,8 @@
   </head>
   <body>
     <header>
-      <h1 class="title" id="name">About Me</h1>
+      <h1 class="title" id="name"><img id="logo_title" src="images/logo_header.svg"/></h1> 
+      <!-- <h1 class="title" id="name">About Me</h1> -->
       <nav> 
         <a id="home"    href="index"      >Home</a>
         <a id="contact" href="contact"    >Resumé &amp; Contact</a>
@@ -22,39 +23,49 @@
     </header>
     <main id="main">
       <div class="maincontent">
-      <h2>Title of Content</h2>
-      <p>
-        lorem ipsum and so on
-      </p>
+        <h2>About Me</h2>
+        <h3>Who am I?</h3>
+        <p>I'm Ghassan Younes, a Computer Engineering student at DigiPen Institute of Technology. I also run a crafting business - <a href="store/index.html">Ghassan Younes Makes</a> - that I run both online and at various Artisan and Maker fairs in the Greater Seattle Area. I'm Lebanese and Greek, and I'm very proud of my heritage, which I love to showcase in my work.
+        </p>
+
+        <h3>What does my logo mean?</h3>
+        <p>My logo is a combination of the first characters in my name in the Arabic (غ) and Latin (G) scripts! I designed it to show the meld between my two worlds and to represent the fusion stylings I present as part of who I am and what I do. 
+        </p>
+
+        <h3>How can you reach me?</h3>
+        <ul class="descriptor">
+          <li>Business inquiries: <a target=blank href="mailto:ghassan@ghassanyounes.com">ghassan[at]ghassanyounes[dot]com</a></li>
+          <li>Shop orders and related queries: <a target=blank href="mailto:info@ghassanyounes.com">info[at]ghassanyounes[dot]com</a>.</li> 
+          <li>You can find me on <a target=blank href="www.instagram.com/the__ghassan">Instagram</a> and <a target=blank href="www.twitter.com/the__ghassan">Twitter</a> as @the__ghassan</li>
+          <li>I also have pages for my storefront on <a target=blank href="www.instagram.com/gyounes">Instagram</a> and <a target=blank href="www.twitter.com/gyounes">Twitter</a> as @gyounesmakes</li>
+          <li>Open Source project contributions can be found on my <a target=blank href="http://github.com/ghassanyounes">GitHub</a>.</li>
+        </ul>
       </div> <!-- main content -->
       <div class="sidebar">
-        <h3>Sidebar 1</h3>
-        <img src=""/>
-        <p>
-          text goes here
+        <h3>Project Updates</h3>
+        <p id="projupdate">
+          Unable to load text preview.
         </p>
-      </div><!--Sidebar 1-->
+      </div>
       <div class="sidebar">
-        <h3>Sidebar 2</h3>
-        <img src=""/>
-        <p>
-          text goes here
+        <h3>Adventures in the Food World</h3>
+        <img id="blogupd8img"src=""/>
+        <p id="blogupd8text">
+          Unable to load text preview.
         </p>
-      </div><!--Sidebar 2-->
+      </div>
       <div class="sidebar">
-        <h3>Sidebar 3</h3>
-        <img src=""/>
-        <p>
-          text goes here
+        <h3>Latest Shop Updates</h3>
+        <p id="shopupdate">
+          Unable to load text preview.
         </p>
-      </div><!--Sidebar 3-->
+      </div>
       <div class="sidebar">
-        <h3>Sidebar 4</h3>
-        <img src=""/>
-        <p>
-          text goes here
+        <h3>Try this recipe out!</h3>
+        <p id="recipe">
+          Unable to load text preview.
         </p>
-      </div><!--Sidebar 4-->
+      </div>
       <div class="sidebar filler"><!-- will not show up on mobile--></div>
       <div class="sidebar filler"><!-- will not show up on mobile--></div>
       <div class="sidebar filler"><!-- will not show up on mobile--></div>
@@ -64,6 +75,6 @@
     </main>
     <footer id="footer"></footer>
     <script src="scripts/common_text.js"></script>
-    <script src="scripts/name-change-color.js"></script>
+    <script src="scripts/jquery_replacements.js"></script>
   </html>
 </html>

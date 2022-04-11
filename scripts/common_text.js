@@ -15,8 +15,10 @@ if (document.getElementById("contact") != null)
   document.getElementById("contact").innerHTML = `Resumé &amp; Contact`;
 if (document.getElementById("projs") != null)
   document.getElementById("projs").innerHTML = `Professional Life &amp; Work`;
-if (document.getElementById("blog") != null)
-  document.getElementById("blog").innerHTML = `Food Blog`;
+if (document.getElementById("blog") != null){
+  //document.getElementById("blog").innerHTML = `Food Blog`;
+  document.getElementById("blog").style.display="none";
+}
 if (document.getElementById("store") != null)
   document.getElementById("store").innerHTML = `Store`;
 if (document.getElementById("about") != null)

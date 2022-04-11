@@ -411,3 +411,19 @@ img#logo_title {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+ul li {
+  font-size: 16pt;
+  line-height: 100%;
+}
+
+div.maincontent ul li a {
+  text-decoration: underline;
+  color: inherit;
+}
+div.maincontent ul li a:visited {
+  color: inherit;
+}
+div.maincontent ul li a:hover {
+  color: var(--highlight-color);
+}
