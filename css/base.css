@@ -493,9 +493,9 @@ form .formemail {
 form .formmessage {
   grid-column: 1 /span 2;
 }
-
-form input.formmessage {
-  min-height: 5em;
+form input, form textarea {
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 form div.formname, form div.formemail {
