@@ -23,6 +23,9 @@ html, body {
     --color-white: #000 !important;
     --color-black: #fff !important;
   }
+  nav.nav--desktop ul.nav__main li {
+    --nav-color-link: black !important;
+  }
   nav.nav--footer ul.nav__main {
     --nav-color-link: white !important;
   }
