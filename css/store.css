@@ -5,3 +5,25 @@ div.maincontent iframe {
 html, body {
   background-image: url("../store/images/bowties_bg.png");
 }
+
+@media (prefers-color-scheme: no-preference)  {
+:root {
+  --color-white: #fff !important;
+  --color-black: #000 !important;
+}
+}
+@media (prefers-color-scheme: dark)  {
+  :root {
+    --color-white: #fff !important;
+    --color-black: #000 !important;
+  }
+}
+@media (prefers-color-scheme: light)  {
+  :root {
+    --color-white: #000 !important;
+    --color-black: #fff !important;
+  }
+  nav.nav--footer ul.nav__main {
+    --nav-color-link: white !important;
+  }
+}
