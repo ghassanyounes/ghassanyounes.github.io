@@ -21,6 +21,8 @@ if (document.getElementById("blog") != null){
 }
 if (document.getElementById("store") != null)
   document.getElementById("store").innerHTML = `Store`;
+  document.getElementById("store").target = `blank`;
+  document.getElementById("store").href = `https://ghassanyounesmakes.square.site/`;
 if (document.getElementById("about") != null)
   document.getElementById("about").innerHTML = `About Me`;
 if (document.getElementById("order") != null)
