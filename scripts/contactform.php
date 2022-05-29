@@ -28,6 +28,7 @@ $email_address))
 
 if( empty($errors) && && isset($_POST['token_response']) )
 {
+  $url='https://www.google.com/recaptcha/api/siteverify';
   $recaptcha_response=$_POST['token_response'];
 
   $request = file_get_contents($url . '?secret=' . $secret . '&response=' . $recaptcha_response);
