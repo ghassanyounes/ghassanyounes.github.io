@@ -62,9 +62,15 @@ if( empty($errors) && && isset($_POST['token_response']) )
 <body>
 <!-- This page is displayed only if there is some error -->
 <?php
+$secret_file = fopen("priv.info","r");
+$secret=fread($secret_file,filesize("priv.info"));
+fclose($secret_file);
 echo nl2br($errors);
+echo'<script language="javascript">';
+echo'alert("Error. Humanoid not detected")';
+echo'</script>';
 ?>
-
+Error. Captcha not verified.
 
 </body>
 </html>
