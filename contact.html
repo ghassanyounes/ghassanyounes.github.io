@@ -44,7 +44,7 @@
         </ul>
         
         <h3>Send me a message!</h3>
-        <form method="post" name="contact_form" action="scripts/contactform.php">
+        <form method="post" name="contact_form" id="contact_form" action="scripts/contactform.php">
           <div class="formname">Your Name:</div>
           <input class="formname" type="text" name="name">
 
@@ -54,10 +54,10 @@
           <div class="formmessage">Message:</div>
           <textarea class="formmessage" name="message" rows="5"></textarea>
           <br />
-          <input id="submit" type="submit" class="g-recaptcha" 
+          <button id="submit" type="submit" class="g-recaptcha" 
           data-sitekey="6Lf_iikgAAAAAHNXCuuMPys0-4F1LuqQb43y_mgI" 
           data-callback='onSubmit' 
-          data-action='submit' value="Submit">
+          data-action='submit' value="Submit">Submit</button>
         </form>	
       </div> <!-- main content -->
       
@@ -106,7 +106,7 @@
 
     <script>
       function onSubmit(token) {
-        document.getElementById("submit").submit();
+        document.getElementById("contact_form").submit();
       }
     </script>
 
