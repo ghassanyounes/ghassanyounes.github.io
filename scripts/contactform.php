@@ -70,7 +70,7 @@ echo'<script language="javascript">';
 echo'alert("Error. Humanoid not detected")';
 echo'</script>';
 ?>
-Error. Captcha not verified.
+<p>Error. Captcha not verified.</p>
 
 </body>
 </html>
